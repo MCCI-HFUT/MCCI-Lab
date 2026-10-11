@@ -7,7 +7,7 @@ nav:
 ---
 <div class="mcci-intro">
 <div class="mcci-home-lockup">
-  <img class="mcci-home-logo" src="{{ '/images/mcci-logo-full.svg' | relative_url }}" alt="MCCI Lab — Multimodal Computing and Cognitive Intelligence" fetchpriority="high">
+  <img class="mcci-home-logo" src="{{ '/images/mcci-logo-full-clean.svg' | relative_url }}" alt="MCCI Lab — Multimodal Computing and Cognitive Intelligence" fetchpriority="high">
   <h1 class="mcci-home-subtitle">多模态计算与认知智能实验室</h1>
 </div>
 <p class="mcci-intro-copy">MCCI Lab 依托合肥工业大学计算机与信息学院，以多模态计算为基础，聚焦个性化推荐、语言情感理解与可信智能，探索个性化智能体、社会认知及其安全与可信机制的理论和方法。</p>
