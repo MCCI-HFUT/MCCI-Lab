@@ -1,40 +1,40 @@
 ---
 ---
-// Neutral academic palette, with system/light/dark theme support.
+// MCCI Lab original blue / cyan branding, supporting light and dark themes.
 [data-dark="false"] {
-  --primary: #434343;
-  --secondary: #666666;
-  --text: #202020;
+  --primary: #087f98;
+  --secondary: #07a8bc;
+  --text: #172f4b;
   --background: #ffffff;
   --background-alt: #ffffff;
   --surface: #ffffff;
-  --surface-soft: #f7f7f7;
-  --line: #e1e1e1;
-  --light-gray: #e1e1e1;
-  --gray: #686868;
-  --dark-gray: #424242;
-  --overlay: #00000012;
-  --badge-bg: #484848;
+  --surface-soft: #eef6fa;
+  --line: #deedf2;
+  --light-gray: #deedf2;
+  --gray: #657c8c;
+  --dark-gray: #26415b;
+  --overlay: #00265020;
+  --badge-bg: #0647a8;
   --badge-fg: #ffffff;
-  --avatar-filter: grayscale(1);
+  --avatar-filter: none;
   color-scheme: light;
 }
 [data-dark="true"] {
-  --primary: #e1e1e1;
-  --secondary: #b7b7b7;
-  --text: #eeeeee;
-  --background: #191919;
-  --background-alt: #191919;
-  --surface: #232323;
-  --surface-soft: #292929;
-  --line: #414141;
-  --light-gray: #414141;
-  --gray: #b7b7b7;
-  --dark-gray: #dedede;
-  --overlay: #00000055;
-  --badge-bg: #dedede;
-  --badge-fg: #202020;
-  --avatar-filter: grayscale(1) brightness(.8);
+  --primary: #49c9d8;
+  --secondary: #26afc3;
+  --text: #eef9ff;
+  --background: #101d2d;
+  --background-alt: #101d2d;
+  --surface: #1a2c40;
+  --surface-soft: #263e53;
+  --line: #304b61;
+  --light-gray: #304b61;
+  --gray: #a0b9c9;
+  --dark-gray: #d6e9f2;
+  --overlay: #00000045;
+  --badge-bg: #1463a4;
+  --badge-fg: #ffffff;
+  --avatar-filter: none;
   color-scheme: dark;
 }
 :root {
