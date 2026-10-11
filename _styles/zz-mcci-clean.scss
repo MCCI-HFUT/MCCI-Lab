@@ -82,3 +82,8 @@ header.mcci-site-header { border-bottom: 1px solid #e5e7eb !important; }
   .mcci-member{padding:11px 7px;border-radius:10px;}
   .mcci-member-avatar{width:min(100%,135px);height:145px;}
 }
+
+/* Show verified full news dates without squeezing article titles. */
+.mcci-news-row {grid-template-columns: 108px minmax(0,1fr) !important;gap: 14px;}
+.mcci-news-date {white-space: nowrap;font-variant-numeric: tabular-nums;font-size: .9rem;}
+@media (max-width:600px){.mcci-news-row {grid-template-columns: 92px minmax(0,1fr) !important;gap: 8px;}.mcci-news-date{font-size:.82rem;}}

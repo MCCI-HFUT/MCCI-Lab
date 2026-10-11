@@ -16,6 +16,6 @@ nav:
 ## 新闻资讯
 <div class="mcci-news-list">
 {% for item in site.data.news %}
-<div class="mcci-news-row"><span class="mcci-news-date">{{ item.year }}</span><div class="mcci-news-entry">{{ item.title }}</div></div>
+<div class="mcci-news-row"><time class="mcci-news-date" datetime="{{ item.date | default: item.year }}">{{ item.date | default: item.year }}</time><div class="mcci-news-entry">{{ item.title }}</div></div>
 {% endfor %}
 </div>
