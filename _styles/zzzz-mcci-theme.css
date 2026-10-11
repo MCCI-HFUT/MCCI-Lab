@@ -323,4 +323,47 @@ html body main .mcci-paper-title {
   color: var(--text) !important;
 }
 
+/* MCCI typographic color accents: two-tone lab wordmark, distinct news heading
+   and highlighted news dates. The same role mapping works in both languages. */
+html[data-dark=false] {
+  --mcci-wordmark-main: #083d6c;
+  --mcci-wordmark-accent: #00869e;
+  --mcci-fullname-color: #087f98;
+  --mcci-news-heading-color: #0b507b;
+  --mcci-news-date-color: #087f98;
+}
+
+html[data-dark=true] {
+  --mcci-wordmark-main: #c0e7ff;
+  --mcci-wordmark-accent: #56d5e2;
+  --mcci-fullname-color: #71dce7;
+  --mcci-news-heading-color: #a1dafa;
+  --mcci-news-date-color: #65d4e2;
+}
+
+/* Keep "MCCI Lab" as a single accessible h1 while giving Lab a brand accent. */
+html body main h1.mcci-intro-title .mcci-title-main {
+  color: var(--mcci-wordmark-main) !important;
+}
+
+html body main h1.mcci-intro-title .mcci-title-accent {
+  color: var(--mcci-wordmark-accent) !important;
+}
+
+html body main .mcci-intro-en,
+html body main .mcci-intro-en strong {
+  color: var(--mcci-fullname-color) !important;
+}
+
+html body main > section h2.mcci-news-heading {
+  color: var(--mcci-news-heading-color) !important;
+  border-bottom-color: var(--line) !important;
+}
+
+html body main .mcci-news-row .mcci-news-date {
+  color: var(--mcci-news-date-color) !important;
+  font-weight: 650;
+  letter-spacing: 0.01em;
+}
+
 /*# sourceMappingURL=zzzz-mcci-theme.css.map */
