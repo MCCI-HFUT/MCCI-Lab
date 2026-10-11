@@ -1,5 +1,10 @@
 ---
 ---
+# Welcome to MCCI Lab
+
+Multimodal Computing and Cognitive Intelligence Lab
+
+Hefei University of Technology
 
 # MCCI-HFUT's Website
 
