@@ -1,7 +1,7 @@
 # site properties and page defaults
 title: MCCI Lab
-subtitle: Multimodal Computing and Cognitive Intelligence
-description: Research in multimodal computing, personalized recommendation, language and emotion understanding, trustworthy intelligence, personalized agents, and social cognition at Hefei University of Technology.
+subtitle: 多模态计算与认知智能实验室
+description: 合肥工业大学多模态计算与认知智能实验室，聚焦多模态计算、信息检索与个性化推荐、语言情感理解、社会认知和可信智能。
 header: images/mcci-background.svg
 header-dark: false
 footer: images/mcci-background.svg

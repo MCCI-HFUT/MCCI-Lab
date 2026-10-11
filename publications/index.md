@@ -1,13 +1,13 @@
 ---
-title: Publications
+title: 学术论文
 nav:
   order: 2
-  tooltip: Selected research publications
+  tooltip: 代表性学术论文
 ---
 
-# Publications
+# 学术论文
 
-Selected publications involving **Prof. Zhiyong Cheng**, drawn from his publicly available [full publication list](https://sites.google.com/view/zycheng/publication). This is a curated selection rather than a complete bibliography.
+根据程志勇教授[个人主页论文列表](https://sites.google.com/view/zycheng/publication)整理的部分代表性论文，英文论文标题和作者署名保持原文。
 
 {% include section.html %}
 
@@ -35,10 +35,10 @@ Selected publications involving **Prof. Zhiyong Cheng**, drawn from his publicly
 
 {% include section.html %}
 
-## Earlier Selected Work
+## 更早的代表性成果
 
 <div class="mcci-pub"><span class="mcci-venue">ACM MM 2024</span><div><strong>Attribute-driven Disentangled Representation Learning for Multimodal Recommendation</strong><p>Zhenyang Li, Fan Liu, Yinwei Wei, Zhiyong Cheng, Liqiang Nie, Mohan Kankanhalli</p></div></div>
 
 <div class="mcci-pub"><span class="mcci-venue">SIGIR 2024</span><div><strong>Behavior-Contextualized Item Preference Network for Multi-Behavior Recommendation</strong><p>Mingshi Yan, Fan Liu, Jing Sun, Fuming Sun, Zhiyong Cheng, Yahong Han</p></div></div>
 
-For the complete and most up-to-date list, see [Prof. Cheng's publications ↗](https://sites.google.com/view/zycheng/publication).
+完整列表请查看[程志勇教授的论文页面 ↗](https://sites.google.com/view/zycheng/publication).

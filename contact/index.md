@@ -1,26 +1,20 @@
 ---
-title: Contact
+title: 联系我们
 nav:
   order: 6
-  tooltip: Contact and location
+  tooltip: 联系方式与地址
 ---
+# 联系我们
 
-# Contact
+**多模态计算与认知智能实验室（MCCI Lab）**  
+合肥工业大学计算机与信息学院
 
-**Multimodal Computing and Cognitive Intelligence Lab (MCCI Lab)**  
-School of Computer Science and Information Engineering  
-Hefei University of Technology
+**地址：** 合肥市丹霞路 485 号，合肥工业大学翡翠湖校区  
+**邮政编码：** 230601  
+**指导教师：** 程志勇教授  
+**邮箱：** [jason.zy.cheng@gmail.com](mailto:jason.zy.cheng@gmail.com)  
+**教师主页：** [Zhiyong Cheng@HFUT ↗](https://sites.google.com/view/zycheng)
 
-**Address**  
-Emerald Lake Campus  
-485 Danxia Road, Hefei 230601, China
+欢迎有兴趣的同学通过教师主页公布的联系方式了解招生与科研合作信息。
 
-**Faculty contact**  
-Prof. Zhiyong Cheng  
-[Email Prof. Cheng](mailto:jason.zy.cheng@gmail.com) · [Faculty homepage](https://sites.google.com/view/zycheng)
-
-For prospective students, academic collaboration, or research inquiries, please refer to the faculty contact information above.
-
-{% include section.html %}
-
-[GitHub Organization →](https://github.com/MCCI-HFUT)
+[GitHub 仓库 ↗](https://github.com/MCCI-HFUT/MCCI-Lab)

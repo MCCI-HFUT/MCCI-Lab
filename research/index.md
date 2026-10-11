@@ -1,36 +1,28 @@
 ---
-title: Research
+title: 研究方向
 nav:
   order: 1
-  tooltip: Research directions
+  tooltip: 实验室研究方向
 ---
+# 研究方向
 
-# Research
-
-MCCI Lab studies how multimodal information is represented, how personalized intelligence supports human decisions, and how intelligent agents interact in social environments. The following themes reflect the lab's research vision and the academic interests described on Prof. Zhiyong Cheng's [faculty homepage](https://sites.google.com/view/zycheng).
-
-{% include section.html %}
-
-## Multimodal Computing
-
-We investigate representations and learning methods for text, images, video, behavior, and other heterogeneous signals. Topics include multimodal fusion, multimodal retrieval, and representation learning for personalized intelligence.
-
-## Information Retrieval and Recommendation
-
-We study effective, adaptive, and responsible information access. Topics include user preference modeling, news and multi-behavior recommendation, cross-domain and multimodal recommendation, and recommendation fairness.
-
-## Language and Emotion Understanding
-
-We explore language understanding, sentiment and emotion analysis, and cognitive and affective signals for intelligent interaction.
-
-## Personalized Agents and Social Cognition
-
-We investigate personalized agents, social cognition, agent-based social simulation, information diffusion, and the relationships between individual decisions and emergent group behavior.
-
-## Trustworthy Intelligence
-
-We aim to make intelligent systems more dependable through research on fairness, reliability, privacy, robustness, safe interaction, and trustworthy decision-making.
+MCCI Lab 以多模态计算为基础，研究信息理解、个性化推荐、智能体决策与社会认知。
 
 {% include section.html %}
+## 多模态计算
+面向文本、图像、视频和行为数据，开展多模态表征学习、跨模态检索与多源信息融合研究。
 
-[Explore selected publications →]({{ '/publications/' | relative_url }})
+## 信息检索与个性化推荐
+关注用户兴趣建模、信息获取、多行为推荐、多模态推荐以及公平推荐。
+
+## 语言与情感理解
+研究自然语言理解、情感分析与面向人的智能交互。
+
+## 个性化智能体与社会认知
+探索个性化智能体的记忆、决策与交互，以及社会模拟、信息传播与群体行为演化。
+
+## 安全与可信智能
+研究推荐系统与个性化智能体中的公平性、鲁棒性、可信推理与安全决策。
+
+{% include section.html %}
+[查看论文成果 →]({{ '/publications/' | relative_url }})
