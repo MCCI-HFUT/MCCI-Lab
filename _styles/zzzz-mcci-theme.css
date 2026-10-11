@@ -188,5 +188,10 @@ html[data-dark=true] .mcci-recruit-note {
     transition: none;
   }
 }
+/* Bold the bilingual lab name on the Chinese home page, in both color themes. */
+html .mcci-intro-en strong {
+  font-weight: 700;
+  color: var(--text);
+}
 
 /*# sourceMappingURL=zzzz-mcci-theme.css.map */
