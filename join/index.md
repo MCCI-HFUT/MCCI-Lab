@@ -1,5 +1,6 @@
 ---
 title: 加入我们
+section: join
 nav:
   order: 3
   tooltip: 招生咨询与科研合作
@@ -14,10 +15,10 @@ nav:
 ## 研究兴趣
 
 <div class="mcci-grid">
-  <div class="mcci-card"><div class="mcci-card-icon">RETRIEVAL & RECOMMENDATION</div><h3>信息检索与推荐</h3><p>用户建模、个性化推荐、多模态推荐、公平与可信推荐。</p></div>
-  <div class="mcci-card"><div class="mcci-card-icon">MULTIMODAL & LANGUAGE</div><h3>多模态与语言智能</h3><p>多源信息理解、语言与情感计算、跨模态表征。</p></div>
-  <div class="mcci-card"><div class="mcci-card-icon">AGENTS & SOCIETY</div><h3>智能体与社会计算</h3><p>个性化智能体、社会认知、多智能体交互及社会模拟。</p></div>
-  <div class="mcci-card"><div class="mcci-card-icon">TRUSTWORTHY AI</div><h3>可信智能</h3><p>安全、鲁棒性、公平性、可信推理与人机交互。</p></div>
+  <div class="mcci-card"><h3>信息检索与推荐</h3><p>用户建模、个性化推荐、多模态推荐、公平与可信推荐。</p></div>
+  <div class="mcci-card"><h3>多模态与语言智能</h3><p>多源信息理解、语言与情感计算、跨模态表征。</p></div>
+  <div class="mcci-card"><h3>智能体与社会计算</h3><p>个性化智能体、社会认知、多智能体交互及社会模拟。</p></div>
+  <div class="mcci-card"><h3>可信智能</h3><p>安全、鲁棒性、公平性、可信推理与人机交互。</p></div>
 </div>
 
 {% include section.html %}

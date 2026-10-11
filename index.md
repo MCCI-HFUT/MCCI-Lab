@@ -1,5 +1,6 @@
 ---
 title: 主页
+section: home
 nav:
   order: 0
   tooltip: 实验室主页

@@ -1,5 +1,6 @@
 ---
 title: 学术论文
+section: publications
 nav:
   order: 2
   tooltip: 研究成果

@@ -1,5 +1,6 @@
 ---
 title: 成员
+section: team
 nav:
   order: 1
   tooltip: 实验室成员
