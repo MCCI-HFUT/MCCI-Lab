@@ -107,3 +107,35 @@ header.mcci-site-header { border-bottom: 1px solid #e5e7eb !important; }
 .mcci-member-contact a.mcci-contact-value {color:#087b92;text-decoration:none;}
 .mcci-member-contact a.mcci-contact-value:hover {text-decoration:underline;}
 .mcci-contact-pending {color:#89939d;}
+
+/* Unified teacher/student cards: plain research text and plain email, both left-aligned. */
+.mcci-member .mcci-member-detail {
+  width:100%;
+  margin:17px 0 0;
+  padding:0 5px;
+  text-align:left !important;
+  font-size:.89rem;
+  line-height:1.7;
+  color:#697586;
+  font-weight:400;
+  letter-spacing:normal;
+  overflow-wrap:anywhere;
+}
+.mcci-member .mcci-member-contact {
+  display:block !important;
+  align-items:initial !important;
+  width:100%;
+  margin:17px 0 0;
+  padding:0 5px;
+  text-align:left !important;
+  font-family:"Roboto","PingFang SC","Microsoft YaHei",sans-serif;
+  font-size:.88rem;
+  line-height:1.6;
+  font-weight:400;
+  color:#193656;
+  letter-spacing:0;
+  white-space:normal;
+  word-break:normal;
+  overflow-wrap:anywhere;
+}
+.mcci-member .mcci-member-contact a { color:inherit; text-decoration:none; }
