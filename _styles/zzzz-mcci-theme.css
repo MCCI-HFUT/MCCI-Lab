@@ -1,0 +1,192 @@
+/* Neutral color system over the historical blue/cyan styling.
+   Uses data-dark on <html> so every component responds to the theme toggle. */
+html, body {
+  background: var(--background) !important;
+  color: var(--text) !important;
+  transition: background-color 0.18s ease, color 0.18s ease;
+}
+
+html body, body main,
+html main > section,
+html main > section:nth-of-type(even),
+html main > section:nth-of-type(odd),
+html section.background,
+html .background:not(header) {
+  background: var(--background) !important;
+  background-image: none !important;
+  color: var(--text);
+}
+
+html header.mcci-site-header,
+html footer.mcci-clean-footer {
+  background: var(--background) !important;
+  color: var(--text) !important;
+  border-color: var(--line) !important;
+}
+
+html .mcci-clean-footer a {
+  color: var(--gray) !important;
+}
+
+html .mcci-intro-title, html h1, html h2, html h3, html h4,
+html .mcci-paper-title, html .mcci-member h3, html .mcci-member-meta {
+  color: var(--text) !important;
+}
+
+html .mcci-intro-en, html .mcci-news-date, html .mcci-paper-authors,
+html .mcci-paper-source, html .mcci-member .mcci-member-detail,
+html .mcci-member .mcci-member-contact, html .mcci-grid .mcci-card p {
+  color: var(--gray) !important;
+}
+
+html .mcci-member .mcci-member-contact {
+  color: var(--text) !important;
+}
+
+html .mcci-news-list, html .mcci-news-row, html main h2,
+html .mcci-papers-simple .mcci-paper-year {
+  border-color: var(--line) !important;
+}
+
+html .mcci-recruit-note {
+  background: var(--surface) !important;
+  color: var(--text);
+  border: 1px solid var(--line) !important;
+  border-left: 3px solid var(--gray) !important;
+}
+
+html .mcci-grid .mcci-card,
+html .mcci-member {
+  background: var(--surface) !important;
+  border-color: var(--line) !important;
+  color: var(--text) !important;
+  box-shadow: none;
+}
+
+html .mcci-grid .mcci-card:hover,
+html .mcci-member:hover {
+  box-shadow: 0 5px 18px var(--overlay) !important;
+}
+
+html .mcci-grid .mcci-card h3 {
+  color: var(--text) !important;
+}
+
+html .mcci-member-avatar {
+  background: var(--surface-soft) !important;
+  border-color: var(--line) !important;
+  filter: var(--avatar-filter);
+}
+
+html .mcci-paper-entry {
+  background: transparent !important;
+}
+
+html .mcci-paper-venue span {
+  background: var(--badge-bg) !important;
+  border-color: var(--badge-bg) !important;
+  color: var(--badge-fg) !important;
+  box-shadow: none !important;
+}
+
+html .mcci-cohort-title {
+  color: var(--text);
+}
+
+html .mcci-recruit-note a, html main a,
+html footer a, html header.mcci-site-header nav > a:hover {
+  color: var(--primary);
+}
+
+html .mcci-site-header .logo svg, html .mcci-site-header .logo img {
+  filter: grayscale(1) contrast(1.2);
+}
+
+html[data-dark=true] .mcci-site-header .logo svg,
+html[data-dark=true] .mcci-site-header .logo img {
+  filter: grayscale(1) brightness(1.8);
+}
+
+html header.mcci-site-header nav > a {
+  color: var(--text) !important;
+}
+
+html header.mcci-site-header nav > a.mcci-nav-current {
+  color: var(--primary) !important;
+  border-bottom-color: var(--primary) !important;
+}
+
+html header.mcci-site-header nav > a.mcci-lang-switch {
+  background: var(--surface) !important;
+  border-color: var(--line) !important;
+  color: var(--text) !important;
+}
+
+html header.mcci-site-header nav > a.mcci-lang-switch:hover {
+  background: var(--surface-soft) !important;
+}
+
+header.mcci-site-header .mcci-theme-toggle {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 34px;
+  margin-left: 0;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  color: var(--text);
+  padding: 0;
+  cursor: pointer;
+  transition: background 0.16s ease, border-color 0.16s ease;
+}
+
+header.mcci-site-header .mcci-theme-toggle:hover {
+  background: var(--surface-soft);
+  border-color: var(--gray);
+}
+
+header.mcci-site-header .mcci-theme-toggle:focus-visible {
+  outline: 2px solid var(--gray);
+  outline-offset: 3px;
+}
+
+header.mcci-site-header .mcci-theme-icon {
+  font-size: 19px;
+  line-height: 1;
+}
+
+html[data-dark=true] {
+  color-scheme: dark;
+}
+
+html[data-dark=true] .mcci-member-avatar {
+  filter: grayscale(1) brightness(0.75);
+}
+
+html[data-dark=true] .mcci-clean-footer {
+  box-shadow: none !important;
+}
+
+html[data-dark=true] .mcci-recruit-note {
+  box-shadow: none;
+}
+
+@media (max-width: 1020px) {
+  header.mcci-site-header .mcci-theme-toggle {
+    align-self: flex-start;
+    margin: 9px 0;
+  }
+  html header.mcci-site-header nav > a.mcci-nav-current {
+    border-bottom: 0 !important;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  html, body {
+    transition: none;
+  }
+}
+
+/*# sourceMappingURL=zzzz-mcci-theme.css.map */
