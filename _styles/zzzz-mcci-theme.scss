@@ -161,3 +161,42 @@ html header.mcci-site-header .mcci-theme-toggle:hover {
 html a:focus-visible,html button:focus-visible {
   outline-color:var(--primary);
 }
+
+
+/* Branded typography: restore hierarchy for page titles, section headings,
+   and bilingual lab name without tinting normal paragraphs or student names. */
+html[data-dark="false"] {
+  --mcci-title-color: #083d6c;
+  --mcci-section-color: #087f98;
+}
+html[data-dark="true"] {
+  --mcci-title-color: #b5e6ff;
+  --mcci-section-color: #49c9d8;
+}
+html body header.mcci-site-header .title,
+html body main h1,
+html body main .mcci-intro-title {
+  color: var(--mcci-title-color) !important;
+}
+html body main .mcci-intro-en,
+html body main .mcci-intro-en strong {
+  color: var(--mcci-section-color) !important;
+}
+html body main > section h2:not(.mcci-paper-year),
+html body main .mcci-cohort-title {
+  color: var(--mcci-section-color) !important;
+}
+html body main > section h2:not(.mcci-paper-year) {
+  border-bottom-color: var(--line) !important;
+}
+html body main .mcci-papers-simple h2.mcci-paper-year {
+  color: var(--mcci-title-color) !important;
+}
+html body main .mcci-grid .mcci-card h3 {
+  color: var(--mcci-title-color) !important;
+}
+/* Keep individual names and paper titles in the regular text color. */
+html body main .mcci-member h3,
+html body main .mcci-paper-title {
+  color: var(--text) !important;
+}
