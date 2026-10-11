@@ -35,7 +35,6 @@ nav:
 <article class="mcci-member">
   <img src="{{ person.image | default: 'images/avatar-default.svg' | relative_url }}" class="mcci-member-avatar" alt="{{ person.display_name | default: person.name }}的默认头像" loading="lazy">
   <h3>{{ person.display_name | default: person.name }}</h3>
-  <p class="mcci-member-meta">{{ year }} 级博士生</p>
   <p class="mcci-member-detail">{{ person.research | default: "研究方向待补充" }}</p>
   <p class="mcci-member-contact">{{ person.email | default: "邮箱待补充" }}</p>
 </article>
@@ -56,7 +55,6 @@ nav:
 <article class="mcci-member">
   <img src="{{ person.image | default: 'images/avatar-default.svg' | relative_url }}" class="mcci-member-avatar" alt="{{ person.display_name | default: person.name }}的默认头像" loading="lazy">
   <h3>{{ person.display_name | default: person.name }}</h3>
-  <p class="mcci-member-meta">{{ year }} 级硕士生</p>
   <p class="mcci-member-detail">{{ person.research | default: "研究方向待补充" }}</p>
   <p class="mcci-member-contact">{{ person.email | default: "邮箱待补充" }}</p>
 </article>
@@ -74,7 +72,6 @@ nav:
 <article class="mcci-member">
   <img src="{{ person.image | default: 'images/avatar-default.svg' | relative_url }}" class="mcci-member-avatar" alt="{{ person.display_name | default: person.name }}的默认头像" loading="lazy">
   <h3>{{ person.display_name | default: person.name }}</h3>
-  <p class="mcci-member-meta">本科生</p>
   <p class="mcci-member-detail">{{ person.research | default: "研究方向待补充" }}</p>
   <p class="mcci-member-contact">{{ person.email | default: "邮箱待补充" }}</p>
 </article>
