@@ -5,6 +5,6 @@
 
   # MCCI-HFUT's Website
 
-  Visit **[website URL](#)** 🚀
+  Visit **[mcci-hfut.github.io/MCCI-Lab](https://mcci-hfut.github.io/MCCI-Lab)** 🚀
 
   _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-template-docs)_
