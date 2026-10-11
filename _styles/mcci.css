@@ -271,5 +271,158 @@ body, input, button, textarea {
     grid-template-columns: 1fr;
   }
 }
+/* Inspired by common academic lab-homepage structures: news, join, publication actions. */
+.mcci-topics {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin: 22px 0 26px;
+}
+
+.mcci-topics span {
+  font-size: 0.86rem;
+  font-weight: 600;
+  padding: 7px 12px;
+  background: var(--background-alt);
+  border: 1px solid var(--light-gray);
+  border-radius: 30px;
+  color: var(--text);
+}
+
+.mcci-join-banner {
+  margin: 28px 0 4px;
+  border-radius: 16px;
+  border: 1px solid #a4dce5;
+  background: linear-gradient(120deg, #f2fbfd, #edf5fb);
+  padding: 23px 27px;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mcci-join-banner strong {
+  font-size: 1.15rem;
+  color: #07375c;
+}
+
+.mcci-join-banner p {
+  margin: 8px 0 0;
+  font-size: 0.92rem;
+  line-height: 1.7;
+  color: #26465b;
+}
+
+.mcci-join-banner a {
+  background: #07527a;
+  color: #fff !important;
+  display: inline-block;
+  border-radius: 30px;
+  text-decoration: none !important;
+  white-space: nowrap;
+  padding: 11px 15px;
+  font-weight: 600;
+}
+
+.mcci-news-list {
+  margin: 16px 0 18px;
+  border-top: 1px solid var(--light-gray);
+}
+
+.mcci-news-row {
+  display: grid;
+  grid-template-columns: 60px 92px 1fr;
+  align-items: center;
+  gap: 14px;
+  border-bottom: 1px solid var(--light-gray);
+  padding: 16px 4px;
+  line-height: 1.65;
+}
+
+.mcci-news-date {
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+  color: var(--gray);
+  font-size: 0.88rem;
+}
+
+.mcci-news-pill {
+  background: #e1f6f8;
+  color: #006d82;
+  border-radius: 30px;
+  display: inline-block;
+  text-align: center;
+  font-size: 0.76rem;
+  font-weight: 700;
+  padding: 4px 7px;
+}
+
+.mcci-news-row a {
+  color: var(--text) !important;
+  text-decoration: none !important;
+}
+
+.mcci-news-row a:hover {
+  color: var(--primary) !important;
+  text-decoration: underline !important;
+}
+
+.mcci-pub-links {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.mcci-pub-links > a, .mcci-pub-links details > summary {
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 4px 12px;
+  border-radius: 20px;
+  border: 1px solid var(--light-gray);
+  background: var(--background-alt);
+  color: var(--primary);
+  text-decoration: none !important;
+  cursor: pointer;
+}
+
+.mcci-pub-links details[open] {
+  flex-basis: 100%;
+  max-width: 100%;
+}
+
+.mcci-pub-links pre {
+  font-size: 0.75rem;
+  white-space: pre;
+  overflow-x: auto;
+  background: var(--background-alt);
+  padding: 14px;
+  border: 1px solid var(--light-gray);
+  border-radius: 8px;
+  line-height: 1.5;
+}
+
+.mcci-photo-note {
+  margin: 20px 0;
+  padding: 13px 16px;
+  border-left: 3px solid var(--primary);
+  font-size: 0.85rem;
+  color: var(--gray);
+  background: var(--background-alt);
+}
+
+@media (max-width: 760px) {
+  .mcci-join-banner {
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 18px;
+  }
+  .mcci-news-row {
+    grid-template-columns: 52px 65px 1fr;
+    gap: 7px;
+    font-size: 0.89rem;
+  }
+}
 
 /*# sourceMappingURL=mcci.css.map */
