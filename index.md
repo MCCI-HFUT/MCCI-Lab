@@ -6,7 +6,7 @@ nav:
   tooltip: 实验室主页
 ---
 <div class="mcci-intro">
-<h1 class="mcci-intro-title">MCCI Lab</h1>
+<h1 class="mcci-intro-title"><span class="mcci-title-main">MCCI</span> <span class="mcci-title-accent">Lab</span></h1>
 <p class="mcci-intro-en"><strong>多模态计算与认知智能实验室 · Multimodal Computing and Cognitive Intelligence Lab</strong></p>
 <p class="mcci-intro-copy">MCCI Lab 依托合肥工业大学计算机与信息学院，以多模态计算为基础，聚焦个性化推荐、语言情感理解与可信智能，探索个性化智能体、社会认知及其安全与可信机制的理论和方法。</p>
 </div>
@@ -14,7 +14,7 @@ nav:
 
 {% include section.html %}
 
-## 新闻资讯
+<h2 class="mcci-news-heading">新闻资讯</h2>
 <div class="mcci-news-list">
 {% for item in site.data.news %}
 <div class="mcci-news-row"><time class="mcci-news-date" datetime="{{ item.date | default: item.year }}">{{ item.date | default: item.year }}</time><div class="mcci-news-entry">{{ item.title }}</div></div>
