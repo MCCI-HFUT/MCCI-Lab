@@ -685,5 +685,23 @@ main > section:first-of-type {
     gap: 8px;
   }
 }
+/* Cohort group headings and member-card spacing */
+.mcci-cohort-title {
+  font-size: 1.12rem;
+  font-weight: 650;
+  color: var(--text);
+  margin: 27px 0 2px;
+  border-left: 3px solid var(--primary);
+  padding-left: 12px;
+}
+
+.mcci-member-grid {
+  margin-top: 16px;
+  margin-bottom: 26px;
+}
+
+.mcci-member-detail strong, .mcci-member-contact strong {
+  font-weight: 550;
+}
 
 /*# sourceMappingURL=mcci.css.map */
