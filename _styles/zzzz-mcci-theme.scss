@@ -237,3 +237,36 @@ html body main .mcci-news-row .mcci-news-date {
   font-weight: 650;
   letter-spacing: .01em;
 }
+
+
+/* Full, original-form MCCI lockup on the homepage only; no duplicate text brand. */
+.mcci-intro {max-width: 960px; margin-inline: auto;}
+.mcci-home-lockup {
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  max-width:960px;margin:0 auto 18px;gap:5px;
+}
+.mcci-home-logo {
+  display:block;width:min(100%,600px);height:auto;max-height:none;
+  object-fit:contain;margin:0 auto;
+}
+html body main h1.mcci-home-subtitle {
+  font-family:"Roboto","PingFang SC","Microsoft YaHei",sans-serif;
+  font-size:clamp(1.05rem,2vw,1.42rem);
+  font-weight:650;line-height:1.5;margin:3px 0 0 !important;
+  letter-spacing:.01em;text-align:center !important;
+  color:var(--mcci-title-color,#083d6c) !important;
+}
+html[data-dark="true"] .mcci-home-lockup {
+  background:#fff;border-radius:13px;
+  padding:16px 18px 15px;
+  max-width: min(100%,685px);
+}
+html[data-dark="true"] main h1.mcci-home-subtitle {color:#083d6c !important;}
+.mcci-intro .mcci-intro-copy {margin-top:12px;line-height:1.86;}
+@media(max-width:620px) {
+  .mcci-home-lockup {margin-bottom:13px;gap:3px;}
+  .mcci-home-logo {width:100%;max-width:530px;}
+  html body main h1.mcci-home-subtitle {font-size:clamp(1rem,4vw,1.22rem);}
+  html[data-dark="true"] .mcci-home-lockup {padding:12px 9px;}
+  .mcci-intro .mcci-intro-copy {margin-top:12px;}
+}
