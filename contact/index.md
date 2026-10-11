@@ -1,7 +1,7 @@
 ---
 title: 联系我们
 nav:
-  order: 6
+  order: 7
   tooltip: 联系方式与地址
 ---
 # 联系我们
@@ -15,6 +15,6 @@ nav:
 **邮箱：** [jason.zy.cheng@gmail.com](mailto:jason.zy.cheng@gmail.com)  
 **教师主页：** [Zhiyong Cheng@HFUT ↗](https://sites.google.com/view/zycheng)
 
-欢迎有兴趣的同学通过教师主页公布的联系方式了解招生与科研合作信息。
+对科研合作与招生咨询感兴趣的同学，可先查看[加入我们]({{ '/join/' | relative_url }})页面，再使用上面的公开邮箱联系导师。
 
 [GitHub 仓库 ↗](https://github.com/MCCI-HFUT/MCCI-Lab)

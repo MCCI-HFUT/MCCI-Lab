@@ -1,22 +1,24 @@
 ---
-title: 最新动态
+title: 新闻资讯
 nav:
   order: 5
-  tooltip: 实验室学术动态
+  tooltip: 论文与学术动态
 ---
-# 最新动态
 
-根据程志勇教授[公开论文列表](https://sites.google.com/view/zycheng/publication)整理的部分学术动态。
+# 新闻资讯
 
-{% include section.html %}
-### 2026 · SIGIR
-论文 **Post-hoc Provider Fairness Adaptation via Hierarchical Exposure Alignment** 录用于 ACM SIGIR 2026。
-
-### 2026 · WWW
-两篇关于新闻推荐和多行为推荐的论文发表于 The Web Conference 2026：**Modeling Stage-wise Evolution of User Interests for News Recommendation** 与 **RMBRec**。
-
-### 2026 · CVPR
-论文 **Exploring Adaptive Masked Reconstruction for Self-Supervised Skeleton-Based Action Recognition** 发表于 CVPR 2026。
+这里汇总与 MCCI Lab 研究方向相关的部分公开学术成果。信息依据[程志勇教授的学术主页](https://sites.google.com/view/zycheng)整理，目前仅标注已核实的年份，不人为补充具体发布日期。
 
 {% include section.html %}
+
+<div class="mcci-news-list">
+{% for item in site.data.news %}
+  <div class="mcci-news-row"><span class="mcci-news-date">{{ item.year }}</span><span class="mcci-news-pill">{{ item.venue }}</span><div><a href="{{ item.link | relative_url }}">{{ item.title }}</a></div></div>
+{% endfor %}
+</div>
+
+{% include section.html %}
+
+后续将补充经过确认的论文录用、学术报告、交流活动、科研项目和团队荣誉等动态。
+
 [查看代表论文 →]({{ '/publications/' | relative_url }})

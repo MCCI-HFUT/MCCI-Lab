@@ -1,0 +1,26 @@
+# News highlights curated from the official faculty publication list.
+# Dates are intentionally year-only until exact announcement dates are verified.
+- year: "2026"
+  venue: SIGIR
+  title: "Jingzhi Li 等作者的推荐公平性研究论文发表于 SIGIR 2026。"
+  link: "/publications/"
+- year: "2026"
+  venue: WWW
+  title: "新闻推荐研究 Modeling Stage-wise Evolution of User Interests for News Recommendation 发表于 WWW 2026。"
+  link: "/publications/"
+- year: "2026"
+  venue: WWW
+  title: "多行为推荐研究 RMBRec 发表于 WWW 2026。"
+  link: "/publications/"
+- year: "2026"
+  venue: CVPR
+  title: "骨架动作识别研究 Exploring Adaptive Masked Reconstruction 发表于 CVPR 2026。"
+  link: "/publications/"
+- year: "2025"
+  venue: ACM MM
+  title: "不完整模态推荐研究 I³-MRec 发表于 ACM MM 2025。"
+  link: "/publications/"
+- year: "2025"
+  venue: TOIS
+  title: "基于大语言模型的推荐研究 Understanding Before Recommendation 发表于 TOIS 2025。"
+  link: "/publications/"
