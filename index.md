@@ -2,85 +2,39 @@
 ---
 # Welcome to MCCI Lab
 
-Multimodal Computing and Cognitive Intelligence Lab
-
+**Multimodal Computing and Cognitive Intelligence Lab**  
 Hefei University of Technology
 
-# MCCI-HFUT's Website
+MCCI Lab builds upon **multimodal computing** to advance personalized recommendation, language and emotion understanding, and trustworthy intelligence. We explore the theories and methods of personalized agents, social cognition, and the safety and trustworthiness of intelligent systems.
 
-An engaging 1-3 sentence description of your lab.
+Our research connects multimodal information understanding with individual decision-making and social interactions, aiming to develop intelligent systems that are personalized, reliable, and socially aware.
 
 {% include section.html %}
 
-## Highlights
+## Research Directions
 
-{% capture text %}
+### Multimodal Computing
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Understanding and integrating information from language, images, interactions, and other modalities.
 
-{%
-  include button.html
-  link="research"
-  text="See our publications"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
+### Personalized Recommendation
 
-{% endcapture %}
+Modeling user preferences and behaviors to support personalized information retrieval, recommendation, and intelligent services.
 
-{%
-  include feature.html
-  image="images/photo.jpg"
-  link="research"
-  title="Our Research"
-  text=text
-%}
+### Language and Emotion Understanding
 
-{% capture text %}
+Investigating language understanding, affective computing, and the interpretation of human emotions and intentions.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+### Personalized Agents and Social Cognition
 
-{%
-  include button.html
-  link="projects"
-  text="Browse our projects"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
+Studying personalized AI agents, agent-based social simulation, individual decision-making, and collective social behavior.
 
-{% endcapture %}
+### Trustworthy Intelligence
 
-{%
-  include feature.html
-  image="images/photo.jpg"
-  link="projects"
-  title="Our Projects"
-  flip=true
-  style="bare"
-  text=text
-%}
+Improving the fairness, safety, reliability, and trustworthiness of intelligent systems and personalized agents.
 
-{% capture text %}
+{% include section.html %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+## Explore MCCI Lab
 
-{%
-  include button.html
-  link="team"
-  text="Meet our team"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
-
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/photo.jpg"
-  link="team"
-  title="Our Team"
-  text=text
-%}
+[Research and Publications]({{ '/research/' | relative_url }}) · [Projects]({{ '/projects/' | relative_url }}) · [Team]({{ '/team/' | relative_url }}) · [Contact]({{ '/contact/' | relative_url }})
