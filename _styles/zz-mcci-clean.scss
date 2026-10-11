@@ -56,9 +56,19 @@ header.mcci-site-header { border-bottom: 1px solid #e5e7eb !important; }
 }
 .mcci-paper-venue {padding-top:2px;}
 .mcci-paper-venue span {
-  display:inline-block;border:1px solid #cbd1d7;border-radius:3px;
-  padding:4px 9px;min-width:61px;text-align:center;
-  font-size:.82rem;line-height:1.3;font-weight:600;color:#394858;background:#fff;
+  display:inline-block;
+  min-width:88px;
+  padding:5px 11px;
+  border:1px solid #0647a8;
+  border-radius:3px;
+  background:#0647a8;
+  color:#fff;
+  text-align:center;
+  font-family:"Roboto","PingFang SC",sans-serif;
+  font-size:.85rem;
+  line-height:1.3;
+  font-weight:700;
+  box-shadow:0 2px 6px rgba(8,50,110,.10);
 }
 .mcci-paper-info {min-width:0;}
 .mcci-paper-title {font-size:1rem;font-weight:700;line-height:1.48;margin:0 0 5px;color:#26374b;}
