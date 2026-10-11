@@ -60,3 +60,50 @@ body, input, button, textarea {font-family:"PingFang SC","Microsoft YaHei","Noto
 .mcci-pub-links pre{font-size:.75rem;white-space:pre;overflow-x:auto;background:var(--background-alt);padding:14px;border:1px solid var(--light-gray);border-radius:8px;line-height:1.5;}
 .mcci-photo-note{margin:20px 0;padding:13px 16px;border-left:3px solid var(--primary);font-size:.85rem;color:var(--gray);background:var(--background-alt);}
 @media(max-width:760px){.mcci-join-banner{align-items:flex-start;flex-direction:column;padding:18px}.mcci-news-row{grid-template-columns:52px 65px 1fr;gap:7px;font-size:.89rem;}}
+
+/* Compact MCCI Lab header: branding appears once at navigation scale. */
+header.mcci-site-header {
+  min-height: 70px;
+  padding: 12px max(24px, calc((100% - 1180px) / 2)) !important;
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  gap: 14px;
+  background: var(--background) !important;
+  box-shadow: none !important;
+  border-bottom: 1px solid var(--light-gray);
+  position: sticky !important;
+  top: 0 !important;
+}
+header.mcci-site-header:before { display: none !important; }
+header.mcci-site-header .home { flex: 0 0 auto; flex-direction: row !important; gap: 11px; }
+header.mcci-site-header .logo { height: 39px !important; width: 43px; flex-shrink: 0; }
+header.mcci-site-header .logo > * { max-width: 100%; height: 100%; }
+header.mcci-site-header .title-text { display: block; min-width: 0; }
+header.mcci-site-header .title { font-family: var(--title); font-size: 1.3rem !important; font-weight: 700; white-space: nowrap; color: var(--text); }
+header.mcci-site-header nav { gap: 6px 15px; font-size: .92rem; line-height: 1.3; }
+header.mcci-site-header nav a { white-space: nowrap; font-weight: 500; text-transform: none; text-decoration: none; }
+header.mcci-site-header nav a:hover { color: var(--primary); }
+main > section:first-of-type { padding-top: 34px; padding-bottom: 34px; }
+.mcci-intro { max-width: 960px; margin: 0 auto; }
+.mcci-overline { font-size: .8rem; letter-spacing: .12em; color: var(--primary); font-weight: 700; margin: 0 0 16px; }
+.mcci-intro-title { font-size: clamp(1.65rem, 3vw, 2.35rem); line-height: 1.35; font-weight: 700; margin: 0 0 8px; letter-spacing: .01em; color: var(--text); }
+.mcci-intro-en { font-size: .98rem; color: var(--gray); margin: 0 0 23px; line-height: 1.5; }
+.mcci-intro-copy { font-size: 1.04rem; line-height: 1.95; margin: 0 0 10px; }
+.mcci-intro-link { font-size: .91rem; line-height: 1.7; margin: 10px 0 0; color: var(--gray); }
+.mcci-recruit-note { max-width: 960px; margin: 24px auto 0; border-left: 3px solid #0a9db1; background: var(--background-alt); padding: 14px 17px; font-size: .95rem; line-height: 1.9; border-radius: 0 6px 6px 0; }
+.mcci-recruit-note a { font-weight: 700; white-space: nowrap; }
+@media (max-width: 1020px) {
+  header.mcci-site-header { padding: 10px 18px !important; min-height: 62px; }
+  header.mcci-site-header .nav-toggle { display: flex; margin-left: auto; }
+  header.mcci-site-header .nav-toggle:not(:checked) + nav { display: none; }
+  header.mcci-site-header nav { width: 100%; flex-direction: column; align-items: stretch; flex-wrap: nowrap; gap: 0; }
+  header.mcci-site-header nav a { padding: 11px 6px; border-top: 1px solid var(--light-gray); }
+}
+@media (max-width: 600px) {
+  main > section:first-of-type { padding-top: 20px; }
+  .mcci-intro-copy { font-size: .96rem; line-height: 1.85; }
+  .mcci-intro-en { font-size: .85rem; }
+  .mcci-overline { font-size: .7rem; letter-spacing: .04em; }
+}
