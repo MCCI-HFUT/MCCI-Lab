@@ -2,26 +2,39 @@
 title: Research
 nav:
   order: 1
-  tooltip: Published works
+  tooltip: Research directions and publications
 ---
 
-# {% include icon.html icon="fa-solid fa-microscope" %}Research
+# {% include icon.html icon="fa-solid fa-microscope" %} Research
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-{% include section.html %}
-
-## Highlighted
-
-{% include citation.html lookup="Open collaborative writing with Manubot" style="rich" %}
+MCCI Lab focuses on multimodal computing and cognitive intelligence. Our research spans personalized information access, human-centered language understanding, intelligent agents, social cognition, and trustworthy AI.
 
 {% include section.html %}
 
-## All
+## Research Areas
 
-{% include search-box.html %}
+### Multimodal Computing
 
-{% include search-info.html %}
+Multimodal representation learning, information fusion, and understanding across language, vision, and behavioral signals.
 
-{% include list.html data="citations" component="citation" style="rich" %}
+### Information Retrieval and Personalized Recommendation
+
+Information access, user modeling, personalized recommendation, and adaptive intelligent information services.
+
+### Language and Emotion Understanding
+
+Natural language understanding, sentiment and emotion analysis, and emotion-aware intelligent interaction.
+
+### Personalized Agents and Social Simulation
+
+Personalized AI agents, social cognition, multi-agent interaction, and simulation of individual and collective behaviors.
+
+### Trustworthy and Safe Intelligence
+
+Fairness, robustness, safety, and trustworthy decision-making in recommendation systems and personalized agents.
+
+{% include section.html %}
+
+## Publications
+
+Selected publications will be added as the laboratory publication list is curated.
