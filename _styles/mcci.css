@@ -200,7 +200,7 @@
 }
 /* Chinese navigation and member cohort cards */
 body, input, button, textarea {
-  font-family: "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+  font-family: "Roboto", "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
 }
 
 .mcci-people-grid {
@@ -702,6 +702,102 @@ main > section:first-of-type {
 
 .mcci-member-detail strong, .mcci-member-contact strong {
   font-weight: 550;
+}
+
+/* LION-inspired academic typography, using the same loaded Roboto families. */
+body {
+  font-family: "Roboto", "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto", "PingFang SC", "Microsoft YaHei", sans-serif;
+  letter-spacing: 0;
+}
+
+main h1 {
+  font-size: clamp(1.8rem, 3vw, 2.15rem);
+  font-weight: 600;
+  text-align: left;
+  text-transform: none;
+}
+
+main h2 {
+  font-size: clamp(1.32rem, 2.1vw, 1.55rem);
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+main h3 {
+  font-size: 1.23rem;
+  font-weight: 550;
+}
+
+main p {
+  line-height: 1.8;
+}
+
+.mcci-intro-title {
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
+.mcci-intro-en {
+  font-size: 1.02rem;
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+.mcci-intro-copy {
+  font-size: 1.02rem;
+  line-height: 1.85;
+  font-weight: 400;
+}
+
+header.mcci-site-header .title {
+  font-family: "Roboto", "PingFang SC", sans-serif;
+  font-size: 1.35rem !important;
+  letter-spacing: -0.012em;
+}
+
+header.mcci-site-header nav {
+  font-family: "Roboto", "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-size: 0.95rem;
+  letter-spacing: 0;
+}
+
+.mcci-news-row {
+  line-height: 1.65;
+}
+
+.mcci-news-entry {
+  font-size: 0.98rem;
+  line-height: 1.72;
+}
+
+.mcci-member h3 {
+  letter-spacing: 0;
+  font-weight: 600;
+}
+
+.mcci-member-meta {
+  letter-spacing: 0;
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 15px;
+  }
+  .mcci-intro-en {
+    font-size: 0.89rem;
+  }
+  .mcci-intro-copy {
+    font-size: 0.99rem;
+  }
 }
 
 /*# sourceMappingURL=mcci.css.map */

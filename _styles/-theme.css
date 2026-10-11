@@ -23,9 +23,9 @@
 }
 
 :root {
-  --title: "Barlow", sans-serif;
-  --heading: "Barlow", sans-serif;
-  --body: "Barlow", sans-serif;
+  --title: "Roboto", "PingFang SC", "Microsoft YaHei", sans-serif;
+  --heading: "Roboto", "PingFang SC", "Microsoft YaHei", sans-serif;
+  --body: "Roboto", "PingFang SC", "Microsoft YaHei", sans-serif;
   --code: "Roboto Mono", monospace;
   --large: 1.2rem;
   --xl: 1.4rem;
@@ -34,8 +34,8 @@
   --regular: 400;
   --semi-bold: 500;
   --bold: 600;
-  --spacing: 2;
-  --compact: 1.5;
+  --spacing: 1.8;
+  --compact: 1.65;
   --rounded: 8px;
   --shadow: 0 4px 22px 0 var(--overlay);
   --transition: 0.2s ease;
