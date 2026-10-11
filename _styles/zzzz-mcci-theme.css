@@ -1,5 +1,4 @@
-/* Neutral color system over the historical blue/cyan styling.
-   Uses data-dark on <html> so every component responds to the theme toggle. */
+/* Restored MCCI blue/cyan brand palette, responsive to the light/dark theme switcher. */
 html, body {
   background: var(--background) !important;
   color: var(--text) !important;
@@ -52,7 +51,7 @@ html .mcci-recruit-note {
   background: var(--surface) !important;
   color: var(--text);
   border: 1px solid var(--line) !important;
-  border-left: 3px solid var(--gray) !important;
+  border-left: 3px solid var(--primary) !important;
 }
 
 html .mcci-grid .mcci-card,
@@ -99,12 +98,19 @@ html footer a, html header.mcci-site-header nav > a:hover {
 }
 
 html .mcci-site-header .logo svg, html .mcci-site-header .logo img {
-  filter: grayscale(1) contrast(1.2);
+  filter: none !important;
+}
+
+html[data-dark=true] .mcci-site-header .logo {
+  background: #ffffff;
+  padding: 3px;
+  border-radius: 7px;
+  box-sizing: border-box;
 }
 
 html[data-dark=true] .mcci-site-header .logo svg,
 html[data-dark=true] .mcci-site-header .logo img {
-  filter: grayscale(1) brightness(1.8);
+  filter: none !important;
 }
 
 html header.mcci-site-header nav > a {
@@ -163,7 +169,7 @@ html[data-dark=true] {
 }
 
 html[data-dark=true] .mcci-member-avatar {
-  filter: grayscale(1) brightness(0.75);
+  filter: none !important;
 }
 
 html[data-dark=true] .mcci-clean-footer {
@@ -214,6 +220,61 @@ header.mcci-site-header .mcci-theme-label {
 header.mcci-site-header .mcci-theme-toggle[data-theme=dark] {
   background: var(--surface-soft);
   border-color: var(--gray);
+}
+
+/* Restore branded accents throughout the UI without changing layouts. */
+html .mcci-news-list,
+html .mcci-news-row,
+html main h2,
+html .mcci-papers-simple .mcci-paper-year {
+  border-color: var(--line) !important;
+}
+
+html .mcci-member-avatar {
+  filter: none !important;
+}
+
+html .mcci-grid .mcci-card,
+html .mcci-member {
+  border-color: var(--line) !important;
+}
+
+html header.mcci-site-header nav > a.mcci-nav-current {
+  color: var(--primary) !important;
+  border-bottom-color: var(--primary) !important;
+}
+
+html header.mcci-site-header nav > a:hover,
+html header.mcci-site-header .mcci-lang-switch:hover {
+  color: var(--primary) !important;
+}
+
+html header.mcci-site-header nav > a.mcci-lang-switch {
+  border-color: var(--line) !important;
+  background: var(--surface) !important;
+}
+
+html .mcci-recruit-note {
+  border-left-color: var(--primary) !important;
+}
+
+html .mcci-paper-venue span {
+  background: var(--badge-bg) !important;
+  border-color: var(--badge-bg) !important;
+  color: var(--badge-fg) !important;
+}
+
+html .mcci-member .mcci-member-contact {
+  color: var(--text) !important;
+}
+
+html header.mcci-site-header .mcci-theme-toggle:hover {
+  color: var(--primary);
+  border-color: var(--primary);
+}
+
+html a:focus-visible, html button:focus-visible {
+  outline-color: var(--primary);
 }
 
 /*# sourceMappingURL=zzzz-mcci-theme.css.map */
