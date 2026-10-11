@@ -139,3 +139,78 @@ header.mcci-site-header { border-bottom: 1px solid #e5e7eb !important; }
   overflow-wrap:anywhere;
 }
 .mcci-member .mcci-member-contact a { color:inherit; text-decoration:none; }
+
+/* Consistent, moderately tighter page rhythm.
+   The template creates a separate <section> for each section.html break;
+   large section paddings plus heading margins previously stacked up. */
+main > section {
+  padding-top: 23px !important;
+  padding-bottom: 23px !important;
+}
+main > section:first-of-type {
+  padding-top: 27px !important;
+  padding-bottom: 22px !important;
+}
+main > section:last-of-type {
+  padding-bottom: 30px !important;
+}
+main > section > h1:first-child {
+  margin-top: 0 !important;
+  margin-bottom: 14px !important;
+}
+main > section > h2 {
+  margin-top: 0 !important;
+  margin-bottom: 16px !important;
+  padding-bottom: 9px;
+}
+main > section > h2 + p {
+  margin-top: 8px;
+}
+main > section > p {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+/* Reduce overlong whitespace between headings and the actual content. */
+.mcci-intro { margin-top: 0; }
+.mcci-intro-title { margin: 0 0 8px !important; }
+.mcci-intro-en { margin: 0 0 14px; }
+.mcci-intro-copy { margin: 0; }
+.mcci-recruit-note { margin: 18px auto 0; padding: 12px 15px; line-height: 1.7; }
+.mcci-news-list { margin: 10px 0 6px; }
+.mcci-news-row { padding-top: 10px; padding-bottom: 10px; }
+
+/* Keep year headings clear but bring publications closer together. */
+.mcci-papers-simple { margin-top: 0; }
+.mcci-papers-simple .mcci-paper-year {
+  margin-top: 19px;
+  margin-bottom: 16px;
+  padding-top: 12px;
+}
+.mcci-papers-simple .mcci-paper-year:first-child { margin-top: 3px; }
+.mcci-paper-entry { margin-bottom: 18px; }
+.mcci-paper-title { margin-bottom: 4px; }
+.mcci-paper-authors { margin-bottom: 3px; }
+
+/* Team: tighter grade headings and card grids, unchanged information. */
+.mcci-cohort-title { margin-top: 20px; margin-bottom: 7px; }
+.mcci-member-grid { gap: 17px; margin-top: 12px; margin-bottom: 18px; }
+.mcci-member { padding-top: 14px; padding-bottom: 15px; }
+.mcci-member .mcci-member-detail { margin-top: 13px; }
+.mcci-member .mcci-member-contact { margin-top: 12px; }
+
+/* Join us: slightly denser research cards and sub-sections. */
+.mcci-grid { gap: 13px; margin-top: 12px; margin-bottom: 8px; }
+.mcci-card { padding: 18px 17px; min-height: 150px; }
+.mcci-card h3 { margin-top: 11px; margin-bottom: 8px; }
+.mcci-card p { line-height: 1.6; }
+.mcci-card-icon { line-height: 1.5; }
+
+@media (max-width: 700px) {
+  main > section { padding-top: 18px !important; padding-bottom: 18px !important; }
+  main > section:first-of-type { padding-top: 21px !important; }
+  main > section:last-of-type { padding-bottom: 24px !important; }
+  .mcci-member-grid { gap: 12px; }
+  .mcci-card { min-height: 0; padding: 15px; }
+  .mcci-papers-simple .mcci-paper-year { margin-top: 16px; }
+}
