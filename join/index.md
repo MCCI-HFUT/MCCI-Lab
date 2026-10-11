@@ -1,7 +1,7 @@
 ---
 title: 加入我们
 nav:
-  order: 6
+  order: 3
   tooltip: 招生咨询与科研合作
 ---
 
@@ -33,4 +33,4 @@ nav:
 **程志勇教授**  
 合肥工业大学计算机与信息学院  
 邮箱：[jason.zy.cheng@gmail.com](mailto:jason.zy.cheng@gmail.com)  
-[教师个人主页 ↗](https://sites.google.com/view/zycheng) · [团队研究方向 →]({{ '/research/' | relative_url }})
+[教师个人主页 ↗](https://sites.google.com/view/zycheng)

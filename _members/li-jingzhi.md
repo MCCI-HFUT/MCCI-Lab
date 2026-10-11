@@ -3,7 +3,6 @@ name: LI Jingzhi
 display_name: LI Jingzhi
 role: phd
 cohort: 2024
-image: images/li-jingzhi.jpg
 email: jingzhili826@gmail.com
 research: 推荐系统、推荐公平性
 affiliation: 合肥工业大学
