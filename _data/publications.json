@@ -4,100 +4,83 @@
     "venue": "SIGIR",
     "title": "Post-hoc Provider Fairness Adaptation via Hierarchical Exposure Alignment",
     "authors": "Jingzhi Li, Zhiyong Cheng, Richang Hong, Meng Wang",
-    "is_journal": false,
-    "pdf": "https://arxiv.org/pdf/2605.01524",
-    "code": "https://github.com/Tam-JQK/Post-train",
-    "doi": "https://doi.org/10.1145/3805712.3809597",
-    "bibtex": "@inproceedings{mcci2026sigir1,\n  title = {Post-hoc Provider Fairness Adaptation via Hierarchical Exposure Alignment},\n  author = {Jingzhi Li and Zhiyong Cheng and Richang Hong and Meng Wang},\n  booktitle = {SIGIR},\n  year = {2026},\n  doi = {10.1145/3805712.3809597}\n}"
+    "is_journal": false
   },
   {
     "year": "2026",
     "venue": "WWW",
     "title": "Modeling Stage-wise Evolution of User Interests for News Recommendation",
     "authors": "Zhiyong Cheng, Yike Jin, Zhijie Zhang, Huilin Chen, Zhangling Duan, Meng Wang",
-    "is_journal": false,
-    "bibtex": "@inproceedings{mcci2026www2,\n  title = {Modeling Stage-wise Evolution of User Interests for News Recommendation},\n  author = {Zhiyong Cheng and Yike Jin and Zhijie Zhang and Huilin Chen and Zhangling Duan and Meng Wang},\n  booktitle = {WWW},\n  year = {2026}\n}"
+    "is_journal": false
   },
   {
     "year": "2026",
     "venue": "WWW",
     "title": "RMBRec: Robust Multi-Behavior Recommendation towards Target Behaviors",
     "authors": "Miaomiao Cai, Zhijie Zhang, Junfeng Fang, Zhiyong Cheng, Xiang Wang, Meng Wang",
-    "is_journal": false,
-    "bibtex": "@inproceedings{mcci2026www3,\n  title = {RMBRec: Robust Multi-Behavior Recommendation towards Target Behaviors},\n  author = {Miaomiao Cai and Zhijie Zhang and Junfeng Fang and Zhiyong Cheng and Xiang Wang and Meng Wang},\n  booktitle = {WWW},\n  year = {2026}\n}"
+    "is_journal": false
   },
   {
     "year": "2026",
     "venue": "CVPR",
     "title": "Exploring Adaptive Masked Reconstruction for Self-Supervised Skeleton-Based Action Recognition",
     "authors": "Shengkai Sun, Zhiyong Cheng, Zefan Zhang, Jianfeng Dong, Zhihui Li, Meng Wang",
-    "is_journal": false,
-    "bibtex": "@inproceedings{mcci2026cvpr4,\n  title = {Exploring Adaptive Masked Reconstruction for Self-Supervised Skeleton-Based Action Recognition},\n  author = {Shengkai Sun and Zhiyong Cheng and Zefan Zhang and Jianfeng Dong and Zhihui Li and Meng Wang},\n  booktitle = {CVPR},\n  year = {2026}\n}"
+    "is_journal": false
   },
   {
     "year": "2025",
     "venue": "ACM MM",
     "title": "I³-MRec: Invariant Learning with Information Bottleneck for Incomplete Modality Recommendation",
     "authors": "Huilin Chen, Miaomiao Cai, Fan Liu, Zhiyong Cheng, Richang Hong, Meng Wang",
-    "is_journal": false,
-    "bibtex": "@inproceedings{mcci2025acmmm6,\n  title = {I³-MRec: Invariant Learning with Information Bottleneck for Incomplete Modality Recommendation},\n  author = {Huilin Chen and Miaomiao Cai and Fan Liu and Zhiyong Cheng and Richang Hong and Meng Wang},\n  booktitle = {ACM MM},\n  year = {2025}\n}"
+    "is_journal": false
   },
   {
     "year": "2025",
     "venue": "TOIS",
     "title": "Understanding Before Recommendation: Semantic Aspect-Aware Review Exploitation via Large Language Models",
     "authors": "Fan Liu, Yaqi Liu, Zhiyong Cheng, Liqiang Nie, Mohan Kankanhalli",
-    "is_journal": true,
-    "bibtex": "@article{mcci2025tois7,\n  title = {Understanding Before Recommendation: Semantic Aspect-Aware Review Exploitation via Large Language Models},\n  author = {Fan Liu and Yaqi Liu and Zhiyong Cheng and Liqiang Nie and Mohan Kankanhalli},\n  journal = {TOIS},\n  year = {2025}\n}"
+    "is_journal": true
   },
   {
     "year": "2025",
     "venue": "TOIS",
     "title": "User Invariant Preference Learning for Multi-Behavior Recommendation",
     "authors": "Mingshi Yan, Zhiyong Cheng, Fan Liu, Yingda Lyu",
-    "is_journal": true,
-    "bibtex": "@article{mcci2025tois8,\n  title = {User Invariant Preference Learning for Multi-Behavior Recommendation},\n  author = {Mingshi Yan and Zhiyong Cheng and Fan Liu and Yingda Lyu},\n  journal = {TOIS},\n  year = {2025}\n}"
+    "is_journal": true
   },
   {
     "year": "2024",
     "venue": "ACM MM",
     "title": "Attribute-driven Disentangled Representation Learning for Multimodal Recommendation",
     "authors": "Zhenyang Li, Fan Liu, Yinwei Wei, Zhiyong Cheng, Liqiang Nie, Mohan Kankanhalli",
-    "is_journal": false,
-    "bibtex": "@inproceedings{mcci2024acmmm9,\n  title = {Attribute-driven Disentangled Representation Learning for Multimodal Recommendation},\n  author = {Zhenyang Li and Fan Liu and Yinwei Wei and Zhiyong Cheng and Liqiang Nie and Mohan Kankanhalli},\n  booktitle = {ACM MM},\n  year = {2024}\n}"
+    "is_journal": false
   },
   {
     "year": "2024",
     "venue": "SIGIR",
     "title": "Behavior-Contextualized Item Preference Network for Multi-Behavior Recommendation",
     "authors": "Mingshi Yan, Fan Liu, Jing Sun, Fuming Sun, Zhiyong Cheng, Yahong Han",
-    "is_journal": false,
-    "bibtex": "@inproceedings{mcci2024sigir10,\n  title = {Behavior-Contextualized Item Preference Network for Multi-Behavior Recommendation},\n  author = {Mingshi Yan and Fan Liu and Jing Sun and Fuming Sun and Zhiyong Cheng and Yahong Han},\n  booktitle = {SIGIR},\n  year = {2024}\n}"
+    "is_journal": false
   },
   {
     "year": "2023",
     "venue": "WWW",
     "title": "Multi-behavior Recommendation with Cascading Graph Convolution Networks",
     "authors": "Zhiyong Cheng, Sai Han, Fan Liu, Lei Zhu, Zan Gao, Yuxin Peng",
-    "is_journal": false,
-    "code": "https://github.com/SS-00-SS/MBCGCN",
-    "bibtex": "@inproceedings{mcci2023www11,\n  title = {Multi-behavior Recommendation with Cascading Graph Convolution Networks},\n  author = {Zhiyong Cheng and Sai Han and Fan Liu and Lei Zhu and Zan Gao and Yuxin Peng},\n  booktitle = {WWW},\n  year = {2023}\n}"
+    "is_journal": false
   },
   {
     "year": "2023",
     "venue": "ACM MM",
     "title": "Semantic-guided Feature Distillation for Multimodal Recommendation",
     "authors": "Fan Liu, Huilin Chen, Zhiyong Cheng, Liqiang Nie, Mohan Kankanhalli",
-    "is_journal": false,
-    "bibtex": "@inproceedings{mcci2023acmmm12,\n  title = {Semantic-guided Feature Distillation for Multimodal Recommendation},\n  author = {Fan Liu and Huilin Chen and Zhiyong Cheng and Liqiang Nie and Mohan Kankanhalli},\n  booktitle = {ACM MM},\n  year = {2023}\n}"
+    "is_journal": false
   },
   {
     "year": "2023",
     "venue": "IEEE TMM",
     "title": "Disentangled Multimodal Representation Learning for Recommendation",
     "authors": "Fan Liu, Huilin Chen, Zhiyong Cheng, Anan Liu, Liqiang Nie, Mohan Kankanhalli",
-    "is_journal": true,
-    "code": "https://github.com/liufancs/DMRL",
-    "bibtex": "@article{mcci2023ieeetmm13,\n  title = {Disentangled Multimodal Representation Learning for Recommendation},\n  author = {Fan Liu and Huilin Chen and Zhiyong Cheng and Anan Liu and Liqiang Nie and Mohan Kankanhalli},\n  journal = {IEEE TMM},\n  year = {2023}\n}"
+    "is_journal": true
   }
 ]

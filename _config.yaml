@@ -2,9 +2,9 @@
 title: MCCI Lab
 subtitle: 多模态计算与认知智能实验室
 description: 合肥工业大学多模态计算与认知智能实验室，聚焦多模态计算、信息检索与个性化推荐、语言情感理解、社会认知和可信智能。
-header: images/mcci-background.svg
+header:
 header-dark: false
-footer: images/mcci-background.svg
+footer:
 footer-dark: false
 proofer: false
 
