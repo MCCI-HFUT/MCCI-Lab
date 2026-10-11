@@ -26,6 +26,6 @@
     <a href="{{ '/join/' | relative_url }}" {% if section_name == "join" %}class="mcci-nav-current" aria-current="page"{% endif %}>加入我们</a>
     <a class="mcci-lang-switch" href="{{ '/en' | append: paired | strip | relative_url }}" lang="en" hreflang="en" title="Switch to English">🇺🇸 EN</a>
   {% endif %}
-    <button type="button" id="mcci-theme-toggle" class="mcci-theme-toggle" title="{% if is_en %}Change theme{% else %}切换主题{% endif %}" aria-label="{% if is_en %}Change theme{% else %}切换主题{% endif %}"><span class="mcci-theme-icon" aria-hidden="true">◐</span></button>
+    <button type="button" id="mcci-theme-toggle" class="mcci-theme-toggle" title="{% if is_en %}Change theme{% else %}切换主题{% endif %}" aria-label="{% if is_en %}Change theme{% else %}切换主题{% endif %}"><span class="mcci-theme-icon" aria-hidden="true">◐</span><span class="mcci-theme-label" aria-hidden="true"></span></button>
   </nav>
 </header>

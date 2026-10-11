@@ -103,3 +103,23 @@ html[data-dark="true"] .mcci-recruit-note {box-shadow:none;}
 
 /* Bold the bilingual lab name on the Chinese home page, in both color themes. */
 html .mcci-intro-en strong {font-weight:700;color:var(--text);}
+
+/* Theme button shows the selected mode and visibly responds to each click. */
+header.mcci-site-header .mcci-theme-toggle {
+  width:auto;
+  min-width:74px;
+  padding:0 10px;
+  gap:7px;
+  white-space:nowrap;
+}
+header.mcci-site-header .mcci-theme-label {
+  font-family:"Roboto","PingFang SC","Microsoft YaHei",sans-serif;
+  font-size:.77rem;
+  line-height:1;
+  font-weight:500;
+  letter-spacing:0;
+}
+header.mcci-site-header .mcci-theme-toggle[data-theme="dark"] {
+  background:var(--surface-soft);
+  border-color:var(--gray);
+}
