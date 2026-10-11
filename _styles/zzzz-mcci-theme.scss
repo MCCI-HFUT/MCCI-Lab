@@ -100,3 +100,6 @@ html[data-dark="true"] .mcci-recruit-note {box-shadow:none;}
   html header.mcci-site-header nav > a.mcci-nav-current {border-bottom:0 !important;}
 }
 @media(prefers-reduced-motion:reduce){html,body{transition:none;}}
+
+/* Bold the bilingual lab name on the Chinese home page, in both color themes. */
+html .mcci-intro-en strong {font-weight:700;color:var(--text);}
