@@ -21,7 +21,7 @@
 {% assign subtitle = site.subtitle %}
 
 {% assign description = page.description | default: site.description %}
-{% if site.subtitle %}
+{% if site.subtitle and page.lang != "en" %}
   {% capture description -%}
     {{ site.subtitle }}. {{ description }}
   {%- endcapture %}
