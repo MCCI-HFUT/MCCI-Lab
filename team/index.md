@@ -16,11 +16,10 @@ nav:
 {% for person in instructors %}
 <article class="mcci-member">
   <img src="{{ person.image | default: 'images/avatar-default.svg' | relative_url }}" class="mcci-member-avatar" alt="{{ person.display_name | default: person.name }}的默认头像" loading="lazy">
-  <h3><a href="{{ person.links.home-page | default: person.url }}">{{ person.display_name | default: person.name }}</a></h3>
-  <p class="mcci-member-subtitle">{{ person.name }}</p>
+  <h3>{{ person.display_name | default: person.name }}</h3>
   <p class="mcci-member-meta">教授 · 合肥工业大学</p>
   <p class="mcci-member-detail">信息检索与推荐、社交媒体分析、多媒体系统</p>
-  <p class="mcci-member-contact"><a href="mailto:jason.zy.cheng@gmail.com">联系邮箱 ↗</a></p>
+  <p class="mcci-member-contact">jason.zy.cheng@gmail.com</p>
 </article>
 {% endfor %}
 </div>

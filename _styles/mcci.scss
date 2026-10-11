@@ -145,3 +145,25 @@ header.mcci-site-header nav { font-family: "Roboto", "PingFang SC", "Microsoft Y
 .mcci-member h3 { letter-spacing: 0; font-weight: 600; }
 .mcci-member-meta { letter-spacing: 0; }
 @media(max-width:600px) { body { font-size: 15px; } .mcci-intro-en { font-size: .89rem; } .mcci-intro-copy { font-size: .99rem; } }
+
+
+/* Bibliography layout based on the visual hierarchy of LION's publications page */
+.mcci-papers {margin-top:2rem;}
+.mcci-papers h2.mcci-bib-year {margin:34px 0 0;border:0;border-top:1px solid var(--light-gray);padding:16px 0 0;text-align:right;font-size:1.55rem;font-weight:600;}
+.mcci-bib-list {list-style:none;margin:0;padding:0;}
+.mcci-bib-item {display:grid;grid-template-columns:110px minmax(0,1fr);gap:18px;margin:0 0 24px;padding:0;align-items:start;}
+.mcci-bib-side {padding-top:1px;}
+.mcci-bib-venue {display:inline-block;background:var(--primary);color:#fff;border-radius:3px;padding:5px 13px;font-size:.81rem;font-weight:600;line-height:1.3;white-space:nowrap;}
+.mcci-bib-main {min-width:0;text-align:left;}
+.mcci-bib-title {font-size:1.02rem;font-weight:700;line-height:1.52;color:var(--text);margin-bottom:5px;}
+.mcci-bib-authors {font-size:.93rem;line-height:1.62;color:var(--text);margin-bottom:4px;}
+.mcci-bib-periodical {font-size:.91rem;font-style:italic;line-height:1.5;color:var(--gray);margin-bottom:9px;}
+.mcci-bib-controls {display:flex;gap:6px;align-items:flex-start;flex-wrap:wrap;}
+.mcci-bib-controls>a,.mcci-bib-detail>summary {display:inline-block;font-size:.8rem;line-height:1.3;color:var(--text)!important;text-decoration:none!important;border:1px solid var(--text);background:transparent;border-radius:3px;padding:4px 12px;cursor:pointer;white-space:nowrap;}
+.mcci-bib-controls>a:hover,.mcci-bib-detail>summary:hover {color:var(--primary)!important;border-color:var(--primary);}
+.mcci-bib-detail {display:contents;}
+.mcci-bib-detail[open] {display:block;flex-basis:100%;order:1;}
+.mcci-bib-detail>summary {list-style:none;width:max-content;}
+.mcci-bib-detail>summary::-webkit-details-marker {display:none;}
+.mcci-bib-detail pre {margin:8px 0 0;white-space:pre;overflow-x:auto;padding:12px 14px;border:1px solid var(--light-gray);border-radius:4px;background:var(--background-alt);font-size:.79rem;line-height:1.5;}
+@media(max-width:650px){.mcci-bib-item{grid-template-columns:1fr;gap:9px;margin-bottom:28px}.mcci-bib-side{padding:0}.mcci-papers h2.mcci-bib-year{margin-top:30px}.mcci-bib-title{font-size:1rem}}

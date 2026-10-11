@@ -1,17 +1,7 @@
-# Publication announcements, shown by year where the announcement date is not known.
+# Publication news for 2026 only; no author names.
 - year: "2026"
   title: "实验室 1 篇论文发表于 SIGIR 2026。"
 - year: "2026"
   title: "实验室 2 篇论文发表于 WWW 2026。"
 - year: "2026"
   title: "实验室 1 篇论文发表于 CVPR 2026。"
-- year: "2026"
-  title: "实验室 1 篇论文发表于 IEEE TPAMI 2026。"
-- year: "2025"
-  title: "实验室 1 篇论文发表于 ACM MM 2025。"
-- year: "2025"
-  title: "实验室 2 篇论文发表于 ACM TOIS 2025。"
-- year: "2024"
-  title: "实验室 1 篇论文发表于 ACM MM 2024。"
-- year: "2024"
-  title: "实验室 1 篇论文发表于 SIGIR 2024。"
