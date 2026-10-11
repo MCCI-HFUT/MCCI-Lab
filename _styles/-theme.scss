@@ -1,27 +1,41 @@
 ---
 ---
-// MCCI brand palette
+// Neutral academic palette, with system/light/dark theme support.
 [data-dark="false"] {
-  --primary: #087f98;
-  --secondary: #07a8bc;
-  --text: #172f4b;
+  --primary: #434343;
+  --secondary: #666666;
+  --text: #202020;
   --background: #ffffff;
   --background-alt: #ffffff;
-  --light-gray: #deedf2;
-  --gray: #657c8c;
-  --dark-gray: #26415b;
-  --overlay: #00265020;
+  --surface: #ffffff;
+  --surface-soft: #f7f7f7;
+  --line: #e1e1e1;
+  --light-gray: #e1e1e1;
+  --gray: #686868;
+  --dark-gray: #424242;
+  --overlay: #00000012;
+  --badge-bg: #484848;
+  --badge-fg: #ffffff;
+  --avatar-filter: grayscale(1);
+  color-scheme: light;
 }
 [data-dark="true"] {
-  --primary: #35c2d2;
-  --secondary: #00aebd;
-  --text: #eef9ff;
-  --background: #101d2d;
-  --background-alt: #ffffff;
-  --light-gray: #2e4354;
-  --gray: #8ba3b1;
-  --dark-gray: #bbd4e0;
-  --overlay: #00000045;
+  --primary: #e1e1e1;
+  --secondary: #b7b7b7;
+  --text: #eeeeee;
+  --background: #191919;
+  --background-alt: #191919;
+  --surface: #232323;
+  --surface-soft: #292929;
+  --line: #414141;
+  --light-gray: #414141;
+  --gray: #b7b7b7;
+  --dark-gray: #dedede;
+  --overlay: #00000055;
+  --badge-bg: #dedede;
+  --badge-fg: #202020;
+  --avatar-filter: grayscale(1) brightness(.8);
+  color-scheme: dark;
 }
 :root {
   --title: "Roboto", "PingFang SC", "Microsoft YaHei", sans-serif;

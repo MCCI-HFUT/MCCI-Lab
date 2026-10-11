@@ -1,3 +1,4 @@
+# English translations of lab publication news; do not invent acceptance dates.
 - year: "2026"
   date: "2026-10-11"
   title: "The MCCI Lab website is officially launched."
@@ -7,3 +8,11 @@
   title: "Two papers from the lab were published at WWW 2026."
 - year: "2026"
   title: "One paper from the lab was published at CVPR 2026."
+- year: "2025"
+  title: "One paper from the lab was published at ACM MM 2025."
+- year: "2025"
+  title: "Two papers from the lab were published in ACM TOIS 2025."
+- year: "2024"
+  title: "One paper from the lab was published at ACM MM 2024."
+- year: "2024"
+  title: "One paper from the lab was published at SIGIR 2024."
