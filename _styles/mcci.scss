@@ -1,0 +1,30 @@
+---
+---
+/* MCCI Lab home and content enhancements, in template layout */
+.mcci-hero {max-width: 960px; margin: 0 auto; padding: 22px 0 34px;}
+.mcci-eyebrow{font-size: .8rem;letter-spacing:.18em;font-weight:700;color:var(--primary);margin-bottom:20px;}
+.mcci-brand{display:flex;align-items:center;gap:24px;flex-wrap:wrap;}
+.mcci-brand-mark{width:108px;height:108px;object-fit:contain;}
+.mcci-brand-name{font-size:clamp(2.5rem,6vw,5rem);line-height:1.05;letter-spacing:-.05em;color:#053261;font-weight:800;}
+.mcci-brand-name span{font-weight:500;color:#009fb2;}
+.mcci-brand-full{font-size:clamp(.95rem,2vw,1.4rem);letter-spacing:.015em;color:var(--text);margin-top:9px;}
+.mcci-hero-lead{max-width:800px;font-size:clamp(1.1rem,2vw,1.35rem);line-height:1.75;margin:26px 0;}
+.mcci-hero-actions{display:flex;gap:12px;flex-wrap:wrap;}
+.mcci-action{display:inline-block;padding:12px 20px;border-radius:30px;text-decoration:none!important;font-weight:600;}
+.mcci-action.primary{background:#083d6c;color:white!important;}
+.mcci-action.secondary{border:1px solid var(--primary);color:var(--text)!important;}
+.mcci-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px;margin:20px 0 12px;}
+.mcci-card{display:block;text-decoration:none!important;border:1px solid var(--light-gray);background:var(--background-alt);border-radius:14px;padding:23px 22px;color:var(--text)!important;transition:transform .15s,box-shadow .15s;min-height:180px;}
+.mcci-card:hover{transform:translateY(-3px);box-shadow:var(--shadow);}
+.mcci-card h3{font-size:1.12rem;margin:14px 0 10px;line-height:1.4;}
+.mcci-card p{font-size:.92rem;line-height:1.65;margin:0;color:var(--text);}
+.mcci-card-icon{color:var(--primary);letter-spacing:.08em;font-size:.72rem;font-weight:800;}
+.mcci-pub{display:grid;grid-template-columns:110px 1fr;gap:16px;border-bottom:1px solid var(--light-gray);padding:16px 0;}
+.mcci-pub strong{font-weight:700;line-height:1.45;}
+.mcci-pub p{font-size:.88rem;color:var(--gray);margin:6px 0 0;}
+.mcci-venue{font-size:.8rem;font-weight:800;color:var(--primary);white-space:nowrap;}
+.mcci-faculty{display:flex;gap:22px;align-items:center;flex-wrap:wrap;padding:24px;background:var(--background-alt);border:1px solid var(--light-gray);border-radius:14px;}
+.mcci-faculty h3{margin:0 0 8px;}
+.mcci-faculty p{margin:7px 0;}
+.mcci-faculty-monogram{width:88px;height:88px;border-radius:18px;display:grid;place-items:center;background:linear-gradient(140deg,#08366c,#00adbb);color:white;font-size:1.7rem;font-weight:800;flex-shrink:0;}
+@media(max-width:640px){.mcci-brand{gap:10px}.mcci-brand-mark{width:68px;height:68px}.mcci-pub{grid-template-columns:1fr;gap:5px}.mcci-hero{padding-top:0;}.mcci-card{min-height:auto;}}

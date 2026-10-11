@@ -1,21 +1,28 @@
 ---
-title: Blog
+title: News
 nav:
-  order: 4
-  tooltip: Musings and miscellany
+  order: 5
+  tooltip: Research updates
 ---
 
-# {% include icon.html icon="fa-solid fa-feather-pointed" %}Blog
+# News & Highlights
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Selected 2026 research highlights from Prof. Zhiyong Cheng's publicly available [publication list](https://sites.google.com/view/zycheng/publication).
 
 {% include section.html %}
 
-{% include search-box.html %}
+### 2026 · SIGIR
 
-{% include tags.html tags=site.tags %}
+**Post-hoc Provider Fairness Adaptation via Hierarchical Exposure Alignment** is listed as a full paper at ACM SIGIR 2026.
 
-{% include search-info.html %}
+### 2026 · WWW
 
-{% include list.html data="posts" component="post-excerpt" %}
+**Modeling Stage-wise Evolution of User Interests for News Recommendation** and **RMBRec: Robust Multi-Behavior Recommendation towards Target Behaviors** are listed as full papers at The Web Conference 2026.
+
+### 2026 · CVPR
+
+**Exploring Adaptive Masked Reconstruction for Self-Supervised Skeleton-Based Action Recognition** is listed at CVPR 2026.
+
+{% include section.html %}
+
+[Browse all selected publications →]({{ '/publications/' | relative_url }})

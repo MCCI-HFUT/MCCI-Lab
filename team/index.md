@@ -1,35 +1,29 @@
 ---
 title: Team
 nav:
-  order: 3
-  tooltip: About our team
+  order: 4
+  tooltip: Faculty and group members
 ---
 
-# {% include icon.html icon="fa-solid fa-users" %}Team
+# Our Team
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+## Faculty
+
+<div class="mcci-faculty">
+  <div class="mcci-faculty-monogram">ZC</div>
+  <div>
+    <h3>Prof. Zhiyong Cheng (程志勇)</h3>
+    <p><strong>Professor · Faculty Lead</strong></p>
+    <p>School of Computer Science and Information Engineering, Hefei University of Technology</p>
+    <p>Research: Information Retrieval & Recommendation · Social Media Analysis · Multimedia Systems</p>
+    <p><a href="https://sites.google.com/view/zycheng">Personal Website ↗</a> · <a href="{{ '/publications/' | relative_url }}">Selected Publications →</a></p>
+  </div>
+</div>
+
+Prof. Cheng earned his Ph.D. from Singapore Management University in 2016. He previously held research appointments at the National University of Singapore and Shandong Artificial Intelligence Institute. For his full biography, see his [official faculty homepage](https://sites.google.com/view/zycheng).
 
 {% include section.html %}
 
-{% include list.html data="members" component="portrait" filter="role == 'pi'" %}
-{% include list.html data="members" component="portrait" filter="role != 'pi'" %}
+## Students and Collaborators
 
-{% include section.html background="images/background.jpg" dark=true %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-{% include section.html %}
-
-{% capture content %}
-
-{% include figure.html image="images/photo.jpg" %}
-{% include figure.html image="images/photo.jpg" %}
-{% include figure.html image="images/photo.jpg" %}
-
-{% endcapture %}
-
-{% include grid.html style="square" content=content %}
+The full MCCI Lab member roster will be added after names and profiles are confirmed. For current faculty information, please refer to the [faculty homepage](https://sites.google.com/view/zycheng).

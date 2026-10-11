@@ -1,54 +1,43 @@
 ---
 ---
-
-// colors
+// MCCI brand palette
 [data-dark="false"] {
-  --primary: #0795d9;
-  --secondary: #7dd3fc;
-  --text: #000000;
+  --primary: #087f98;
+  --secondary: #07a8bc;
+  --text: #172f4b;
   --background: #ffffff;
-  --background-alt: #fafafa;
-  --light-gray: #e0e0e0;
-  --gray: #808080;
-  --dark-gray: #404040;
-  --overlay: #00000020;
+  --background-alt: #f3f8fb;
+  --light-gray: #deedf2;
+  --gray: #657c8c;
+  --dark-gray: #26415b;
+  --overlay: #00265020;
 }
 [data-dark="true"] {
-  --primary: #0795d9;
-  --secondary: #075985;
-  --text: #ffffff;
-  --background: #181818;
-  --background-alt: #1c1c1c;
-  --light-gray: #404040;
-  --gray: #808080;
-  --dark-gray: #b0b0b0;
-  --overlay: #ffffff10;
+  --primary: #35c2d2;
+  --secondary: #00aebd;
+  --text: #eef9ff;
+  --background: #101d2d;
+  --background-alt: #16283b;
+  --light-gray: #2e4354;
+  --gray: #8ba3b1;
+  --dark-gray: #bbd4e0;
+  --overlay: #00000045;
 }
-
 :root {
-  // font families
   --title: "Barlow", sans-serif;
   --heading: "Barlow", sans-serif;
   --body: "Barlow", sans-serif;
   --code: "Roboto Mono", monospace;
-
-  // font sizes
   --large: 1.2rem;
   --xl: 1.4rem;
   --xxl: 1.6rem;
-
-  // font weights
   --thin: 200;
   --regular: 400;
   --semi-bold: 500;
   --bold: 600;
-
-  // text line spacing
   --spacing: 2;
   --compact: 1.5;
-
-  // effects
-  --rounded: 3px;
-  --shadow: 0 0 10px 0 var(--overlay);
+  --rounded: 8px;
+  --shadow: 0 4px 22px 0 var(--overlay);
   --transition: 0.2s ease;
 }

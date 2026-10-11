@@ -2,39 +2,35 @@
 title: Research
 nav:
   order: 1
-  tooltip: Research directions and publications
+  tooltip: Research directions
 ---
 
-# {% include icon.html icon="fa-solid fa-microscope" %} Research
+# Research
 
-MCCI Lab focuses on multimodal computing and cognitive intelligence. Our research spans personalized information access, human-centered language understanding, intelligent agents, social cognition, and trustworthy AI.
-
-{% include section.html %}
-
-## Research Areas
-
-### Multimodal Computing
-
-Multimodal representation learning, information fusion, and understanding across language, vision, and behavioral signals.
-
-### Information Retrieval and Personalized Recommendation
-
-Information access, user modeling, personalized recommendation, and adaptive intelligent information services.
-
-### Language and Emotion Understanding
-
-Natural language understanding, sentiment and emotion analysis, and emotion-aware intelligent interaction.
-
-### Personalized Agents and Social Simulation
-
-Personalized AI agents, social cognition, multi-agent interaction, and simulation of individual and collective behaviors.
-
-### Trustworthy and Safe Intelligence
-
-Fairness, robustness, safety, and trustworthy decision-making in recommendation systems and personalized agents.
+MCCI Lab studies how multimodal information is represented, how personalized intelligence supports human decisions, and how intelligent agents interact in social environments. The following themes reflect the lab's research vision and the academic interests described on Prof. Zhiyong Cheng's [faculty homepage](https://sites.google.com/view/zycheng).
 
 {% include section.html %}
 
-## Publications
+## Multimodal Computing
 
-Selected publications will be added as the laboratory publication list is curated.
+We investigate representations and learning methods for text, images, video, behavior, and other heterogeneous signals. Topics include multimodal fusion, multimodal retrieval, and representation learning for personalized intelligence.
+
+## Information Retrieval and Recommendation
+
+We study effective, adaptive, and responsible information access. Topics include user preference modeling, news and multi-behavior recommendation, cross-domain and multimodal recommendation, and recommendation fairness.
+
+## Language and Emotion Understanding
+
+We explore language understanding, sentiment and emotion analysis, and cognitive and affective signals for intelligent interaction.
+
+## Personalized Agents and Social Cognition
+
+We investigate personalized agents, social cognition, agent-based social simulation, information diffusion, and the relationships between individual decisions and emergent group behavior.
+
+## Trustworthy Intelligence
+
+We aim to make intelligent systems more dependable through research on fairness, reliability, privacy, robustness, safe interaction, and trustworthy decision-making.
+
+{% include section.html %}
+
+[Explore selected publications →]({{ '/publications/' | relative_url }})

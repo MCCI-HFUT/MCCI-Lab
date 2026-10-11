@@ -1,27 +1,22 @@
 ---
 title: Projects
 nav:
-  order: 2
-  tooltip: Software, datasets, and more
+  order: 3
+  tooltip: Open-source research and software
 ---
 
-# {% include icon.html icon="fa-solid fa-wrench" %}Projects
+# Research & Open Source
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-{% include tags.html tags="publication, resource, website" %}
-
-{% include search-info.html %}
+Selected publicly available research implementations associated with Prof. Zhiyong Cheng's published work. These repositories are linked from his [academic homepage](https://sites.google.com/view/zycheng/publication).
 
 {% include section.html %}
 
-## Featured
-
-{% include list.html component="card" data="projects" filter="group == 'featured'" %}
+<div class="mcci-grid">
+  <a class="mcci-card" href="https://github.com/JianhuaDongCS/Disen-CGCN"><div class="mcci-card-icon">RECOMMENDATION · 2024</div><h3>Disen-CGCN ↗</h3><p>Disentangled Cascaded Graph Convolution Networks for Multi-Behavior Recommendation.</p></a>
+  <a class="mcci-card" href="https://github.com/SS-00-SS/MBCGCN"><div class="mcci-card-icon">RECOMMENDATION · 2023</div><h3>MBCGCN ↗</h3><p>Multi-behavior Recommendation with Cascading Graph Convolution Networks.</p></a>
+  <a class="mcci-card" href="https://github.com/liufancs/DMRL"><div class="mcci-card-icon">MULTIMODAL · 2023</div><h3>DMRL ↗</h3><p>Disentangled Multimodal Representation Learning for Recommendation.</p></a>
+</div>
 
 {% include section.html %}
 
-## More
-
-{% include list.html component="card" data="projects" filter="!group" style="small" %}
+Research in personalized agents, social cognition, and trustworthy AI is a continuing direction of MCCI Lab. Additional projects and released code will be listed as they become available.
