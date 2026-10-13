@@ -31,5 +31,6 @@ nav:
 
 **程志勇教授**  
 合肥工业大学计算机与信息学院  
-邮箱：[jason.zy.cheng@gmail.com](mailto:jason.zy.cheng@gmail.com)  
-[教师个人主页 ↗](https://sites.google.com/view/zycheng)
+邮箱：<span class="mcci-contact-email">jason.zy.cheng@gmail.com</span>  
+[校内教师主页 ↗](https://faculty.hfut.edu.cn/chengzhiyong/zh_CN/index.htm)  
+[个人学术主页 ↗](https://sites.google.com/view/zycheng)

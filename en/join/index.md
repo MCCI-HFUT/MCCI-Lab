@@ -26,5 +26,6 @@ Students interested in the lab can contact the faculty member to learn about res
 ## Contact
 **Professor Zhiyong Cheng**  
 School of Computer Science and Information Engineering, Hefei University of Technology  
-Email: [jason.zy.cheng@gmail.com](mailto:jason.zy.cheng@gmail.com)  
-[Faculty website ↗](https://sites.google.com/view/zycheng)
+Email: <span class="mcci-contact-email">jason.zy.cheng@gmail.com</span>  
+[University Faculty Profile ↗](https://faculty.hfut.edu.cn/chengzhiyong/zh_CN/index.htm)  
+[Personal Academic Website ↗](https://sites.google.com/view/zycheng)
