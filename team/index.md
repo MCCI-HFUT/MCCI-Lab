@@ -6,10 +6,6 @@ nav:
   tooltip: 实验室成员
 ---
 # 实验室成员
-<figure class="mcci-team-banner">
-  <img src="{{ '/images/mcci-team-illustration.svg' | relative_url }}" alt="七位科研小伙伴交流讨论的插画" loading="eager">
-  <figcaption>一起探索，一起成长。</figcaption>
-</figure>
 
 {% include section.html %}
 ## 指导教师

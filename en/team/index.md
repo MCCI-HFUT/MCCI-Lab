@@ -6,10 +6,6 @@ description: MCCI Lab faculty, PhD, Master's, and undergraduate students.
 ---
 
 # People
-<figure class="mcci-team-banner">
-  <img src="{{ '/images/mcci-team-illustration.svg' | relative_url }}" alt="Illustration of seven researchers discussing ideas" loading="eager">
-  <figcaption>Curiosity, collaboration, and discovery.</figcaption>
-</figure>
 {% include section.html %}
 ## Faculty
 <div class="mcci-member-grid">
