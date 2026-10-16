@@ -1,6 +1,21 @@
 [
   {
     "year": "2026",
+    "venue": "TORS",
+    "title": "LLM-Driven Aspect-Based Semantic Alignment for Review-Based Recommendation",
+    "authors": "Huilin Chen, Zhiyong Cheng, Fan Liu, Richang Hong, Meng Wang",
+    "is_journal": true
+  },
+  {
+    "year": "2026",
+    "venue": "TOIS",
+    "title": "Mutual Information-Based Privacy-Preserving Synthetic Data Generation for Recommendation Systems",
+    "authors": "Huilin Chen, Zhiyong Cheng, Fan Liu, Zhangling Duan, Xun Yang, Meng Wang",
+    "is_journal": true,
+    "status": "accepted"
+  },
+  {
+    "year": "2026",
     "venue": "SIGIR",
     "title": "Post-hoc Provider Fairness Adaptation via Hierarchical Exposure Alignment",
     "authors": "Jingzhi Li, Zhiyong Cheng, Richang Hong, Meng Wang",
@@ -26,13 +41,6 @@
     "title": "Exploring Adaptive Masked Reconstruction for Self-Supervised Skeleton-Based Action Recognition",
     "authors": "Shengkai Sun, Zhiyong Cheng, Zefan Zhang, Jianfeng Dong, Zhihui Li, Meng Wang",
     "is_journal": false
-  },
-  {
-    "year": "2026",
-    "venue": "TORS",
-    "title": "LLM-Driven Aspect-Based Semantic Alignment for Review-Based Recommendation",
-    "authors": "Huilin Chen, Zhiyong Cheng, Fan Liu, Richang Hong, Meng Wang",
-    "is_journal": true
   },
   {
     "year": "2026",
