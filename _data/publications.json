@@ -28,6 +28,20 @@
     "is_journal": false
   },
   {
+    "year": "2026",
+    "venue": "TORS",
+    "title": "LLM-Driven Aspect-Based Semantic Alignment for Review-Based Recommendation",
+    "authors": "Huilin Chen, Zhiyong Cheng, Fan Liu, Richang Hong, Meng Wang",
+    "is_journal": true
+  },
+  {
+    "year": "2026",
+    "venue": "TKDE",
+    "title": "Graph-Structured Driven Dual Adaptation for Mitigating Popularity Bias",
+    "authors": "Miaomiao Cai, Lei Chen, Yifan Wang, Zhiyong Cheng, Min Zhang, Meng Wang",
+    "is_journal": true
+  },
+  {
     "year": "2025",
     "venue": "ACM MM",
     "title": "I³-MRec: Invariant Learning with Information Bottleneck for Incomplete Modality Recommendation",
@@ -49,6 +63,34 @@
     "is_journal": true
   },
   {
+    "year": "2025",
+    "venue": "ICCV",
+    "title": "Towards Efficient General Feature Prediction in Masked Skeleton Modeling",
+    "authors": "Shengkai Sun, Zefan Zhang, Jianfeng Dong, Zhiyong Cheng, Xiaojun Chang, Meng Wang",
+    "is_journal": false
+  },
+  {
+    "year": "2025",
+    "venue": "ACM MM",
+    "title": "VLHP: Learning Discriminative Vision-Language Hybrid Prototypes for Weakly Supervised Semantic Segmentation",
+    "authors": "Jingyuan Fang, Yang Ning, Xiushan Nie, Xinfeng Liu, Zhiyong Cheng",
+    "is_journal": false
+  },
+  {
+    "year": "2025",
+    "venue": "TKDE",
+    "title": "Latent Factor Modeling with Expert Network for Multi-Behavior Recommendation",
+    "authors": "Mingshi Yan, Zhiyong Cheng, Yahong Han, Meng Wang",
+    "is_journal": true
+  },
+  {
+    "year": "2025",
+    "venue": "TOIS",
+    "title": "Federated Semantic Learning for Privacy-preserving Cross-domain Recommendation",
+    "authors": "Ziang Lu, Lei Guo, Xu Yu, Zhiyong Cheng, Xiaohui Han, Lei Zhu",
+    "is_journal": true
+  },
+  {
     "year": "2024",
     "venue": "ACM MM",
     "title": "Attribute-driven Disentangled Representation Learning for Multimodal Recommendation",
@@ -61,6 +103,34 @@
     "title": "Behavior-Contextualized Item Preference Network for Multi-Behavior Recommendation",
     "authors": "Mingshi Yan, Fan Liu, Jing Sun, Fuming Sun, Zhiyong Cheng, Yahong Han",
     "is_journal": false
+  },
+  {
+    "year": "2024",
+    "venue": "TOIS",
+    "title": "Cluster-based Graph Collaborative Filtering",
+    "authors": "Fan Liu, Shuai Zhao, Zhiyong Cheng, Liqiang Nie, Mohan Kankanhalli",
+    "is_journal": true
+  },
+  {
+    "year": "2024",
+    "venue": "TOIS",
+    "title": "Cascading Residual Graph Convolutional Network for Multi-Behavior Recommendation",
+    "authors": "Mingshi Yan, Zhiyong Cheng, Chen Gao, Jing Sun, Fan Liu, Fuming Sun, Haojie Li",
+    "is_journal": true
+  },
+  {
+    "year": "2024",
+    "venue": "TORS",
+    "title": "Disentangled Cascaded Graph Convolution Networks for Multi-Behavior Recommendation",
+    "authors": "Zhiyong Cheng, Jianhua Dong, Fan Liu, Lei Zhu, Xun Yang, Meng Wang",
+    "is_journal": true
+  },
+  {
+    "year": "2024",
+    "venue": "IPM",
+    "title": "Decoupled domain-specific and domain-conditional representation learning for cross-domain recommendation",
+    "authors": "Yu Zhang, Zhiyong Cheng, Fan Liu, Xun Yang, Yuxin Peng",
+    "is_journal": true
   },
   {
     "year": "2023",
