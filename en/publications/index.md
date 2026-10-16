@@ -18,7 +18,7 @@ description: Selected research publications from MCCI Lab.
       <div class="mcci-paper-info">
         <div class="mcci-paper-title">{{ paper.title }}</div>
         <div class="mcci-paper-authors">{{ paper.authors }}</div>
-        <div class="mcci-paper-source">{% if paper.status == "accepted" %}ACM {{ paper.venue }} · Accepted{% else %}{% unless paper.is_journal %}In {% endunless %}{{ paper.venue }}, {{ paper.year }}{% endif %}</div>
+        <div class="mcci-paper-source">{% unless paper.is_journal %}In {% endunless %}{{ paper.venue }}, {{ paper.year }}</div>
       </div>
     </article>
     {% endfor %}
