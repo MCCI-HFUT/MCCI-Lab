@@ -9,7 +9,7 @@ email: jingzhili826@gmail.com
 research: 多媒体检索与推荐
 research_en: Multimedia Retrieval and Recommendation
 affiliation: 合肥工业大学
-scholar_url: https://scholar.google.com/citations?user=_v6ihfEAAAAJ
+card_email: true
 ---
 **李京智**，2024 级博士研究生，研究方向为多媒体检索与推荐。
 

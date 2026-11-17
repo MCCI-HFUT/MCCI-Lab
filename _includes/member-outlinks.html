@@ -13,3 +13,6 @@
   {% endif %}
 </nav>
 {% endif %}
+{% if include.person.card_email and include.person.email %}
+<p class="mcci-member-contact"><a href="mailto:{{ include.person.email | escape }}">{{ include.person.email | escape }}</a></p>
+{% endif %}
