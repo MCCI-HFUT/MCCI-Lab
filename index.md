@@ -12,9 +12,9 @@ nav:
 </div>
 <p class="mcci-intro-copy">MCCI Lab 依托合肥工业大学计算机与信息学院，以多模态计算为基础，聚焦个性化推荐、语言情感理解与可信智能，探索个性化智能体、社会认知及其安全与可信机制的理论和方法。MCCI Lab 同时也隶属于多媒体计算实验室。</p>
 </div>
-<div class="mcci-recruit-note">
-  <div><strong>研究生招生：</strong>MCCI Lab 长期招募硕士、博士研究生、本科实习生及博士后，欢迎对信息检索、推荐系统、多模态智能、个性化智能体与社会模拟感兴趣的同学及研究人员加入。详情请参考 <a href="{{ '/join/' | relative_url }}">加入我们 →</a></div>
-  <div><strong>教职招聘：</strong>MCCI Lab 长期招募教授、副教授、讲师，期待有共同科研志向的科研人员加入我们。请直接发邮件联系 <a href="mailto:jason.zy.cheng@gmail.com">jason.zy.cheng@gmail.com</a>。</div>
+<div class="mcci-recruit-note" style="text-align: left !important;">
+  <div style="text-align: left !important;"><strong>研究生招生：</strong>MCCI Lab 长期招募硕士、博士研究生、本科实习生及博士后，欢迎对信息检索、推荐系统、多模态智能、个性化智能体与社会模拟感兴趣的同学及研究人员加入。详情请参考 <a href="{{ '/join/' | relative_url }}">加入我们 →</a></div>
+  <div style="text-align: left !important;"><strong>教职招聘：</strong>MCCI Lab 长期招募教授、副教授、讲师，期待有共同科研志向的科研人员加入我们。请直接发邮件联系 <a href="mailto:jason.zy.cheng@gmail.com">jason.zy.cheng@gmail.com</a>。</div>
 </div>
 
 {% include section.html %}
@@ -22,6 +22,6 @@ nav:
 <h2 class="mcci-news-heading">新闻资讯</h2>
 <div class="mcci-news-list">
 {% for item in site.data.news %}
-<div class="mcci-news-row"><time class="mcci-news-date" datetime="{{ item.date | default: item.year }}">{{ item.date | default: item.year }}</time><div class="mcci-news-entry">{{ item.title }}</div></div>
+<div class="mcci-news-row" style="text-align: left !important;"><time class="mcci-news-date" datetime="{{ item.date | default: item.year }}">{{ item.date | default: item.year }}</time><div class="mcci-news-entry" style="text-align: left !important;">{{ item.title }}</div></div>
 {% endfor %}
 </div>
