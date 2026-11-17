@@ -6,10 +6,10 @@
 {% if scholar or homepage %}
 <nav class="mcci-member-links" aria-label="{% if include.lang == 'en' %}Academic profile links{% else %}学术主页链接{% endif %}">
   {% if scholar %}
-    <a href="{{ scholar | escape }}" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar">Google Scholar</a>
+    <a href="{{ scholar | escape }}" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar" title="Google Scholar" class="mcci-profile-icon-link"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 8.5 12 4l9.5 4.5L12 13z"/><path d="M6 10.2V15c3.4 2.2 8.6 2.2 12 0v-4.8"/><path d="M21.5 8.5v5.8"/></svg></a>
   {% endif %}
   {% if homepage %}
-    <a href="{{ homepage | escape }}" target="_blank" rel="noopener noreferrer" aria-label="{% if include.lang == 'en' %}Personal Website{% else %}个人主页{% endif %}">{% if include.lang == 'en' %}Personal Website{% else %}个人主页{% endif %}</a>
+    <a href="{{ homepage | escape }}" target="_blank" rel="noopener noreferrer" aria-label="{% if include.lang == 'en' %}Personal Website{% else %}个人主页{% endif %}" title="{% if include.lang == 'en' %}Personal Website{% else %}个人主页{% endif %}" class="mcci-profile-icon-link"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3c2.7 2.5 4.1 5.5 4.1 9S14.7 18.5 12 21c-2.7-2.5-4.1-5.5-4.1-9S9.3 5.5 12 3z"/></svg></a>
   {% endif %}
 </nav>
 {% endif %}

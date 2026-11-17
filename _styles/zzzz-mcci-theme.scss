@@ -319,3 +319,40 @@ html body main .mcci-member-links a:hover,
 html body main .mcci-member-links a:focus-visible {
   text-decoration: underline;
 }
+
+/* MCCI profile icon-only links (Google Scholar and personal website). */
+html body main .mcci-member-links .mcci-profile-icon-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  padding: 5px;
+  color: var(--primary) !important;
+  border-radius: 50%;
+  text-decoration: none;
+  line-height: 1;
+  transition: color .16s ease, transform .16s ease;
+}
+html body main .mcci-member-links .mcci-profile-icon-link svg {
+  display: block;
+  width: 23px;
+  height: 23px;
+  flex: 0 0 23px;
+}
+html body main .mcci-member-links .mcci-profile-icon-link:hover {
+  transform: translateY(-2px);
+  color: var(--mcci-news-date-color, var(--primary)) !important;
+}
+html body main .mcci-member-links .mcci-profile-icon-link:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+}
+@media (prefers-reduced-motion: reduce) {
+  html body main .mcci-member-links .mcci-profile-icon-link {
+    transition: none;
+  }
+  html body main .mcci-member-links .mcci-profile-icon-link:hover {
+    transform: none;
+  }
+}
