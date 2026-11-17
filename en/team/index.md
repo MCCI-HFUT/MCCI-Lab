@@ -77,3 +77,14 @@ description: MCCI Lab faculty, PhD, Master's, and undergraduate students.
 </article>
 {% endfor %}
 </div>
+
+{% include section.html %}
+## Alumni
+
+<div class="mcci-member-grid">
+{% for alumnus in site.data.alumni %}
+<article class="mcci-member">
+  <h3>{{ alumnus.name_en }}</h3>
+</article>
+{% endfor %}
+</div>

@@ -78,3 +78,14 @@ nav:
 </article>
 {% endfor %}
 </div>
+
+{% include section.html %}
+## 毕业生
+
+<div class="mcci-member-grid">
+{% for alumnus in site.data.alumni %}
+<article class="mcci-member">
+  <h3>{{ alumnus.name_zh }}</h3>
+</article>
+{% endfor %}
+</div>
