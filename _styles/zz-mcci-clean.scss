@@ -34,7 +34,7 @@ header.mcci-site-header { border-bottom: 1px solid #e5e7eb !important; }
 /* People — rectangular, gently rounded photo and member frame */
 .mcci-member-grid {display: grid;grid-template-columns: repeat(auto-fill,minmax(180px,1fr));gap: 21px;align-items: stretch;margin: 16px 0 26px;}
 .mcci-member {display: flex; flex-direction:column;align-items:center;text-align:center;min-width:0;border:1px solid #e5e7eb;border-radius:12px;padding:17px 12px 19px;background:#fff;box-shadow:none;}
-.mcci-member-avatar {width: min(100%,164px);height: 168px;aspect-ratio: auto;object-fit:cover;border-radius:10px;border:1px solid #edf0f2;background:#f3f4f6;margin:0 auto 13px;}
+.mcci-member-avatar {width: min(100%,164px);height: 168px;aspect-ratio: auto;object-fit:contain;object-position:center center;border-radius:10px;border:1px solid #edf0f2;background:#f3f4f6;margin:0 auto 13px;}
 .mcci-member h3 {font-size:1.06rem;font-weight:600;margin:4px 0 5px;}
 .mcci-member-meta {font-size:.83rem;margin:4px 0;line-height:1.5;}
 .mcci-member-detail {font-size:.8rem;color:#636b76;line-height:1.6;margin:8px 0;}
