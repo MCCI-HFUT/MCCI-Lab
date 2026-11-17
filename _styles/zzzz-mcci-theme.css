@@ -448,4 +448,18 @@ html body main .mcci-news-entry {
   text-align: left !important;
 }
 
+/* Unframed member photos and cards: no colored backing panels or outlines. */
+html body main .mcci-member,
+html body main .mcci-member:hover {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+html body main .mcci-member-avatar {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
 /*# sourceMappingURL=zzzz-mcci-theme.css.map */
