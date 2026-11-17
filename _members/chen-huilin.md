@@ -1,5 +1,5 @@
 ---
-image: /images/members/huilinchen.jpg
+image: /images/members/huilinchen.png
 name: 陈慧临
 display_name: 陈慧临
 role: phd
