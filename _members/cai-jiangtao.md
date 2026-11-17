@@ -6,7 +6,13 @@ role: masters
 cohort: 2026
 member_order: 20
 affiliation: 合肥工业大学
+research: 多模态大模型
+research_en: Multimodal Large Language Models
+email: c15189209221@163.com
+card_email: true
 ---
 **蔡江涛**，2026 级硕士研究生。
 
-个人邮箱与研究方向待补充。
+研究方向为多模态大模型。
+
+- **邮箱：** [c15189209221@163.com](mailto:c15189209221@163.com)
