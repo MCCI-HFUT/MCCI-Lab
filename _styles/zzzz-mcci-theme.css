@@ -530,5 +530,19 @@ html body main .mcci-member-links .mcci-profile-icon-link:focus-visible {
     transform: none;
   }
 }
+/* Center member research, email and academic links in both languages. */
+html body main .mcci-member .mcci-member-detail,
+html body main .mcci-member .mcci-member-contact {
+  text-align: center !important;
+}
+
+html body main .mcci-member .mcci-member-contact {
+  display: block !important;
+}
+
+html body main .mcci-member .mcci-member-links {
+  justify-content: center !important;
+  text-align: center !important;
+}
 
 /*# sourceMappingURL=zzzz-mcci-theme.css.map */
