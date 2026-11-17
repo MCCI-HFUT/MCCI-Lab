@@ -10,7 +10,7 @@ nav:
   <img class="mcci-home-logo" src="{{ '/images/mcci-logo-full-clean.svg' | relative_url }}" alt="MCCI Lab — Multimodal Computing and Cognitive Intelligence" fetchpriority="high">
   <h1 class="mcci-home-subtitle">多模态计算与认知智能实验室</h1>
 </div>
-<p class="mcci-intro-copy">MCCI Lab 依托合肥工业大学计算机与信息学院，以多模态计算为基础，聚焦个性化推荐、语言情感理解与可信智能，探索个性化智能体、社会认知及其安全与可信机制的理论和方法。</p>
+<p class="mcci-intro-copy">MCCI Lab 依托合肥工业大学计算机与信息学院，以多模态计算为基础，聚焦个性化推荐、语言情感理解与可信智能，探索个性化智能体、社会认知及其安全与可信机制的理论和方法。MCCI Lab 同时也隶属于多媒体计算实验室。</p>
 </div>
 <div class="mcci-recruit-note"><strong>招生与交流：</strong>欢迎对信息检索、推荐系统、多模态智能、个性化智能体与社会模拟感兴趣的同学关注实验室。具体招生安排以学校及导师通知为准。 <a href="{{ '/join/' | relative_url }}">加入我们 →</a></div>
 
