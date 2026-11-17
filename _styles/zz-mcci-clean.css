@@ -91,7 +91,8 @@ header.mcci-site-header {
   width: min(100%, 164px);
   height: 168px;
   aspect-ratio: auto;
-  object-fit: cover;
+  object-fit: contain;
+  object-position: center center;
   border-radius: 10px;
   border: 1px solid #edf0f2;
   background: #f3f4f6;
