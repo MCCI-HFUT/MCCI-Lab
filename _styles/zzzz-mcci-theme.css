@@ -462,4 +462,32 @@ html body main .mcci-member-avatar {
   box-shadow: none !important;
 }
 
+/* Academic profile action links: compact, responsive, no email overflow. */
+html body main .mcci-member-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 6px 13px;
+  width: 100%;
+  margin: 12px 0 0;
+  padding: 0 3px;
+  text-align: center;
+  font-size: 0.84rem;
+  line-height: 1.5;
+}
+
+html body main .mcci-member-links a {
+  display: inline-block;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+  color: var(--primary) !important;
+  text-decoration: none;
+}
+
+html body main .mcci-member-links a:hover,
+html body main .mcci-member-links a:focus-visible {
+  text-decoration: underline;
+}
+
 /*# sourceMappingURL=zzzz-mcci-theme.css.map */
