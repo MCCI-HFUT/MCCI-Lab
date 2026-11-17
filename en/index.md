@@ -12,7 +12,10 @@ description: Multimodal Computing and Cognitive Intelligence Lab at Hefei Univer
 </div>
 <p class="mcci-intro-copy">MCCI Lab is based in the School of Computer Science and Information Engineering at Hefei University of Technology. Building on multimodal computing, we focus on personalized recommendation, language and emotion understanding, and trustworthy intelligence. We explore the theories and methods of personalized AI agents, social cognition, and the safety and trustworthiness of intelligent systems.</p>
 </div>
-<div class="mcci-recruit-note"><strong>Research opportunities:</strong> We welcome students interested in information retrieval, recommender systems, multimodal intelligence, personalized agents, and social simulation. For application details, please consult official university and faculty announcements. <a href="{{ '/en/join/' | relative_url }}">Join Us →</a></div>
+<div class="mcci-recruit-note">
+  <div><strong>Student recruitment:</strong> MCCI Lab welcomes master’s and PhD students, undergraduate interns, and postdoctoral researchers interested in information retrieval, recommender systems, multimodal intelligence, personalized AI agents, and social simulation. <a href="{{ '/en/join/' | relative_url }}">Join Us →</a></div>
+  <div><strong>Faculty recruitment:</strong> MCCI Lab welcomes applications from professors, associate professors, and lecturers who share our research interests. Please contact <a href="mailto:jason.zy.cheng@gmail.com">jason.zy.cheng@gmail.com</a> directly.</div>
+</div>
 
 {% include section.html %}
 
