@@ -1,0 +1,15 @@
+{% assign scholar = include.person.scholar_url %}
+{% assign homepage = include.person.homepage_url %}
+{% unless homepage %}
+  {% assign homepage = include.person.links['home-page'] %}
+{% endunless %}
+{% if scholar or homepage %}
+<nav class="mcci-member-links" aria-label="{% if include.lang == 'en' %}Academic profile links{% else %}学术主页链接{% endif %}">
+  {% if scholar %}
+    <a href="{{ scholar | escape }}" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar">Google Scholar</a>
+  {% endif %}
+  {% if homepage %}
+    <a href="{{ homepage | escape }}" target="_blank" rel="noopener noreferrer" aria-label="{% if include.lang == 'en' %}Personal Website{% else %}个人主页{% endif %}">{% if include.lang == 'en' %}Personal Website{% else %}个人主页{% endif %}</a>
+  {% endif %}
+</nav>
+{% endif %}

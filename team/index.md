@@ -18,7 +18,7 @@ nav:
   <h3>{{ person.display_name | default: person.name }}</h3>
   <p class="mcci-member-meta">教授、博士生导师</p>
   <p class="mcci-member-detail">信息检索与推荐、社交媒体分析、多媒体系统</p>
-  <p class="mcci-member-contact">jason.zy.cheng@gmail.com</p>
+  {% include member-outlinks.html person=person lang='zh' %}
 </article>
 {% endfor %}
 </div>
@@ -37,7 +37,7 @@ nav:
   <img src="{{ person.image | default: 'images/avatar-default.svg' | relative_url }}" class="mcci-member-avatar" alt="{{ person.display_name | default: person.name }}的默认头像" loading="lazy">
   <h3>{{ person.display_name | default: person.name }}</h3>
   <p class="mcci-member-detail">{{ person.research | default: "研究方向待补充" }}</p>
-  <p class="mcci-member-contact">{{ person.email | default: "邮箱待补充" }}</p>
+  {% include member-outlinks.html person=person lang='zh' %}
 </article>
 {% endif %}
 {% endfor %}
@@ -57,7 +57,7 @@ nav:
   <img src="{{ person.image | default: 'images/avatar-default.svg' | relative_url }}" class="mcci-member-avatar" alt="{{ person.display_name | default: person.name }}的默认头像" loading="lazy">
   <h3>{{ person.display_name | default: person.name }}</h3>
   <p class="mcci-member-detail">{{ person.research | default: "研究方向待补充" }}</p>
-  <p class="mcci-member-contact">{{ person.email | default: "邮箱待补充" }}</p>
+  {% include member-outlinks.html person=person lang='zh' %}
 </article>
 {% endif %}
 {% endfor %}
@@ -74,7 +74,7 @@ nav:
   <img src="{{ person.image | default: 'images/avatar-default.svg' | relative_url }}" class="mcci-member-avatar" alt="{{ person.display_name | default: person.name }}的默认头像" loading="lazy">
   <h3>{{ person.display_name | default: person.name }}</h3>
   <p class="mcci-member-detail">{{ person.research | default: "研究方向待补充" }}</p>
-  <p class="mcci-member-contact">{{ person.email | default: "邮箱待补充" }}</p>
+  {% include member-outlinks.html person=person lang='zh' %}
 </article>
 {% endfor %}
 </div>

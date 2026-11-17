@@ -16,7 +16,7 @@ description: MCCI Lab faculty, PhD, Master's, and undergraduate students.
   <h3>{{ person.name }}</h3>
   <p class="mcci-member-meta">Professor, PhD Supervisor</p>
   <p class="mcci-member-detail">Information Retrieval and Recommendation, Social Media Analysis, Multimedia Systems</p>
-  <p class="mcci-member-contact">jason.zy.cheng@gmail.com</p>
+  {% include member-outlinks.html person=person lang='en' %}
 </article>
 {% endfor %}
 </div>
@@ -33,7 +33,7 @@ description: MCCI Lab faculty, PhD, Master's, and undergraduate students.
   <img src="{{ person.image | default: 'images/avatar-default.svg' | relative_url }}" class="mcci-member-avatar" alt="Default avatar" loading="lazy">
   <h3>{{ site.data.member_names_en[person.display_name] | default: person.display_name | default: person.name }}</h3>
   <p class="mcci-member-detail">{% if person.research_en %}{{ person.research_en }}{% elsif person.research == "推荐系统、推荐公平性" %}Recommender Systems, Fairness in Recommendation{% else %}Research interests to be added{% endif %}</p>
-  <p class="mcci-member-contact">{{ person.email | default: "Email to be added" }}</p>
+  {% include member-outlinks.html person=person lang='en' %}
 </article>
 {% endif %}
 {% endfor %}
@@ -53,7 +53,7 @@ description: MCCI Lab faculty, PhD, Master's, and undergraduate students.
   <img src="{{ person.image | default: 'images/avatar-default.svg' | relative_url }}" class="mcci-member-avatar" alt="Default avatar" loading="lazy">
   <h3>{{ site.data.member_names_en[person.display_name] | default: person.display_name | default: person.name }}</h3>
   <p class="mcci-member-detail">{% if person.research_en %}{{ person.research_en }}{% elsif person.research == "推荐系统、推荐公平性" %}Recommender Systems, Fairness in Recommendation{% else %}Research interests to be added{% endif %}</p>
-  <p class="mcci-member-contact">{{ person.email | default: "Email to be added" }}</p>
+  {% include member-outlinks.html person=person lang='en' %}
 </article>
 {% endif %}
 {% endfor %}
@@ -69,7 +69,7 @@ description: MCCI Lab faculty, PhD, Master's, and undergraduate students.
   <img src="{{ person.image | default: 'images/avatar-default.svg' | relative_url }}" class="mcci-member-avatar" alt="Default avatar" loading="lazy">
   <h3>{{ site.data.member_names_en[person.display_name] | default: person.display_name | default: person.name }}</h3>
   <p class="mcci-member-detail">{% if person.research_en %}{{ person.research_en }}{% elsif person.research == "推荐系统、推荐公平性" %}Recommender Systems, Fairness in Recommendation{% else %}Research interests to be added{% endif %}</p>
-  <p class="mcci-member-contact">{{ person.email | default: "Email to be added" }}</p>
+  {% include member-outlinks.html person=person lang='en' %}
 </article>
 {% endfor %}
 </div>
