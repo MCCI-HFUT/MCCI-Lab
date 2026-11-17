@@ -1,4 +1,5 @@
 ---
+image: /images/members/yitingliu.jpg
 name: 刘怡婷
 display_name: 刘怡婷
 role: masters
