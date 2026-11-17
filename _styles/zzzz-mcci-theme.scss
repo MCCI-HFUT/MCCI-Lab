@@ -270,3 +270,9 @@ html[data-dark="true"] main h1.mcci-home-subtitle {color:#083d6c !important;}
   html[data-dark="true"] .mcci-home-lockup {padding:12px 9px;}
   .mcci-intro .mcci-intro-copy {margin-top:12px;}
 }
+
+/* Keep both home recruitment notices left aligned in all themes and languages. */
+html body main .mcci-recruit-note,
+html body main .mcci-recruit-note > div {
+  text-align: left !important;
+}

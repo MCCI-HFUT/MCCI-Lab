@@ -16,6 +16,10 @@ permissions:
 
 jobs:
   build-site:
+    # Serialize gh-pages writes across push and manual/reusable workflow runs.
+    concurrency:
+      group: mcci-lab-gh-pages-publish
+      cancel-in-progress: false
     runs-on: ubuntu-latest
 
     steps:
