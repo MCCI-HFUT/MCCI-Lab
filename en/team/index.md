@@ -14,7 +14,7 @@ description: MCCI Lab faculty, PhD, Master's, and undergraduate students.
 <article class="mcci-member">
   <img src="{{ person.image | default: 'images/avatar-default.svg' | relative_url }}" class="mcci-member-avatar" alt="Default avatar" loading="lazy">
   <h3>{{ person.name }}</h3>
-  <p class="mcci-member-meta">Professor</p>
+  <p class="mcci-member-meta">Professor, PhD Supervisor</p>
   <p class="mcci-member-detail">Information Retrieval and Recommendation, Social Media Analysis, Multimedia Systems</p>
   <p class="mcci-member-contact">jason.zy.cheng@gmail.com</p>
 </article>
