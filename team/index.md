@@ -12,12 +12,14 @@ nav:
 
 <div class="mcci-member-grid">
 {% assign instructors = site.members | where: "role", "principal-investigator" %}
+{% assign additional_instructors = site.members | where: "role", "faculty" %}
+{% assign instructors = instructors | concat: additional_instructors %}
 {% for person in instructors %}
 <article class="mcci-member">
   <img src="{{ person.image | default: 'images/avatar-default.svg' | relative_url }}" class="mcci-member-avatar" alt="{{ person.display_name | default: person.name }}的默认头像" loading="lazy">
   <h3>{{ person.display_name | default: person.name }}</h3>
-  <p class="mcci-member-meta">教授、博士生导师</p>
-  <p class="mcci-member-detail">信息检索与推荐、社交媒体分析、多媒体系统</p>
+  <p class="mcci-member-meta">{{ person.card_title_zh | default: "教授、博士生导师" }}</p>
+  <p class="mcci-member-detail">{{ person.research | default: "信息检索与推荐、社交媒体分析、多媒体系统" }}</p>
   {% include member-outlinks.html person=person lang='zh' %}
 </article>
 {% endfor %}

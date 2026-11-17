@@ -10,12 +10,14 @@ description: MCCI Lab faculty, PhD, Master's, undergraduate students, and alumni
 ## Faculty
 <div class="mcci-member-grid">
 {% assign instructors = site.members | where: "role", "principal-investigator" %}
+{% assign additional_instructors = site.members | where: "role", "faculty" %}
+{% assign instructors = instructors | concat: additional_instructors %}
 {% for person in instructors %}
 <article class="mcci-member">
   <img src="{{ person.image | default: 'images/avatar-default.svg' | relative_url }}" class="mcci-member-avatar" alt="Default avatar" loading="lazy">
   <h3>{{ person.name }}</h3>
-  <p class="mcci-member-meta">Professor, PhD Supervisor</p>
-  <p class="mcci-member-detail">Information Retrieval and Recommendation, Social Media Analysis, Multimedia Systems</p>
+  <p class="mcci-member-meta">{{ person.card_title_en | default: "Professor, PhD Supervisor" }}</p>
+  <p class="mcci-member-detail">{{ person.research_en | default: "Information Retrieval and Recommendation, Social Media Analysis, Multimedia Systems" }}</p>
   {% include member-outlinks.html person=person lang='en' %}
 </article>
 {% endfor %}
