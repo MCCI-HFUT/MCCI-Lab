@@ -88,14 +88,16 @@ header.mcci-site-header {
 }
 
 .mcci-member-avatar {
+  display: block;
   width: min(100%, 164px);
-  height: 168px;
+  max-width: 100%;
+  height: auto;
   aspect-ratio: auto;
   object-fit: contain;
   object-position: center center;
-  border-radius: 10px;
-  border: 1px solid #edf0f2;
-  background: #f3f4f6;
+  border-radius: 10%;
+  border: none;
+  background: transparent;
   margin: 0 auto 13px;
 }
 
@@ -242,7 +244,7 @@ header.mcci-site-header {
   }
   .mcci-member-avatar {
     width: min(100%, 135px);
-    height: 145px;
+    height: auto;
   }
 }
 /* Show verified full news dates without squeezing article titles. */
