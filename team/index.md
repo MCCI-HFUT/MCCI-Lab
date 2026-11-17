@@ -86,6 +86,10 @@ nav:
 {% for alumnus in site.data.alumni %}
 <article class="mcci-member">
   <h3>{{ alumnus.name_zh }}</h3>
+  <p class="mcci-member-meta">{{ alumnus.role_zh }}</p>
+  {% if alumnus.homepage_url %}
+  <a class="mcci-alumni-homepage" href="{{ alumnus.homepage_url | escape }}" target="_blank" rel="noopener noreferrer">个人主页 <span aria-hidden="true">↗</span></a>
+  {% endif %}
 </article>
 {% endfor %}
 </div>
