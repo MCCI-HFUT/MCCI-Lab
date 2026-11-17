@@ -82,9 +82,7 @@ description: MCCI Lab faculty, PhD, Master's, undergraduate students, and alumni
 <article class="mcci-member">
   <h3>{{ alumnus.name_en }}</h3>
   <p class="mcci-member-meta">{{ alumnus.role_en }}</p>
-  {% if alumnus.homepage_url %}
-  <a class="mcci-alumni-homepage" href="{{ alumnus.homepage_url | escape }}" target="_blank" rel="noopener noreferrer">Personal Website <span aria-hidden="true">↗</span></a>
-  {% endif %}
+  {% include member-outlinks.html person=alumnus lang='en' %}
 </article>
 {% endfor %}
 </div>

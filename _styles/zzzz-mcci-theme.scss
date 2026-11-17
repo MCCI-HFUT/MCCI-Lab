@@ -369,29 +369,3 @@ html body main .mcci-member .mcci-member-links {
   justify-content: center !important;
   text-align: center !important;
 }
-
-/* Alumni personal-website buttons; keep member cards clean and centered. */
-html body main .mcci-member .mcci-alumni-homepage {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  gap: 5px;
-  margin: 9px auto 0;
-  padding: 6px 13px;
-  border: 1px solid var(--primary);
-  border-radius: 999px;
-  background: transparent;
-  color: var(--primary) !important;
-  text-decoration: none !important;
-  font-size: .79rem;
-  line-height: 1.5;
-  white-space: nowrap;
-}
-html body main .mcci-member .mcci-alumni-homepage:hover {
-  background: var(--primary);
-  color: #fff !important;
-}
-html body main .mcci-member .mcci-alumni-homepage:focus-visible {
-  outline: 2px solid var(--primary);
-  outline-offset: 3px;
-}
