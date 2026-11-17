@@ -9,6 +9,8 @@ affiliation: 合肥工业大学
 research: 多媒体推荐、个性化智能体
 research_en: Multimedia Recommendation, Personalized Agents
 email: clownclumsy@outlook.com
+homepage_url: https://huilinchenjn.github.io/
+scholar_url: https://scholar.google.com/citations?user=vWoJdWEAAAAJ
 ---
 **陈慧临**，2023 级博士研究生。
 
