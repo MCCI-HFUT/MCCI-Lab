@@ -437,9 +437,14 @@ html[data-dark=true] main h1.mcci-home-subtitle {
     margin-top: 12px;
   }
 }
-/* Keep both home recruitment notices left aligned in all themes and languages. */
+/* Left-align homepage recruitment copy and each news row in both languages.
+   The global body style centers text; these sections should be exceptions. */
 html body main .mcci-recruit-note,
-html body main .mcci-recruit-note > div {
+html body main .mcci-recruit-note > div,
+html body main .mcci-news-list,
+html body main .mcci-news-row,
+html body main .mcci-news-date,
+html body main .mcci-news-entry {
   text-align: left !important;
 }
 
