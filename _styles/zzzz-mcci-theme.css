@@ -545,4 +545,15 @@ html body main .mcci-member .mcci-member-links {
   text-align: center !important;
 }
 
+/* Align alumni homepage icons across cards even when names or roles wrap. */
+html body main .mcci-alumni-grid .mcci-member-links {
+  margin-top: auto !important;
+  padding-top: 12px;
+}
+
+html body main .mcci-alumni-grid .mcci-alumni-destination {
+  margin-top: 9px;
+  text-align: center !important;
+}
+
 /*# sourceMappingURL=zzzz-mcci-theme.css.map */
