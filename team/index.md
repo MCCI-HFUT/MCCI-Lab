@@ -82,11 +82,14 @@ nav:
 {% include section.html %}
 ## 毕业生
 
-<div class="mcci-member-grid">
+<div class="mcci-member-grid mcci-alumni-grid">
 {% for alumnus in site.data.alumni %}
 <article class="mcci-member">
   <h3>{{ alumnus.name_zh }}</h3>
   <p class="mcci-member-meta">{{ alumnus.role_zh }}</p>
+  {% if alumnus.destination_zh %}
+  <p class="mcci-member-detail mcci-alumni-destination">去向：{{ alumnus.destination_zh }}</p>
+  {% endif %}
   {% include member-outlinks.html person=alumnus lang='zh' %}
 </article>
 {% endfor %}

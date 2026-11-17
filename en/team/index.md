@@ -77,11 +77,14 @@ description: MCCI Lab faculty, PhD, Master's, undergraduate students, and alumni
 {% include section.html %}
 ## Alumni
 
-<div class="mcci-member-grid">
+<div class="mcci-member-grid mcci-alumni-grid">
 {% for alumnus in site.data.alumni %}
 <article class="mcci-member">
   <h3>{{ alumnus.name_en }}</h3>
   <p class="mcci-member-meta">{{ alumnus.role_en }}</p>
+  {% if alumnus.destination_en %}
+  <p class="mcci-member-detail mcci-alumni-destination">Destination: {{ alumnus.destination_en }}</p>
+  {% endif %}
   {% include member-outlinks.html person=alumnus lang='en' %}
 </article>
 {% endfor %}
