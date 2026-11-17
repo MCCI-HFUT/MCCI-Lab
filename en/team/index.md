@@ -83,7 +83,7 @@ description: MCCI Lab faculty, PhD, Master's, undergraduate students, and alumni
   <h3>{{ alumnus.name_en }}</h3>
   <p class="mcci-member-meta">{{ alumnus.role_en }}</p>
   {% if alumnus.destination_en %}
-  <p class="mcci-member-detail mcci-alumni-destination">Destination: {{ alumnus.destination_en }}</p>
+  <p class="mcci-member-detail mcci-alumni-destination">{{ alumnus.destination_en }}</p>
   {% endif %}
   {% include member-outlinks.html person=alumnus lang='en' %}
 </article>
