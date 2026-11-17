@@ -1,4 +1,5 @@
 ---
+image: /images/members/jingyuanfang.jpg
 name: 方静远
 display_name: 方静远
 role: phd
