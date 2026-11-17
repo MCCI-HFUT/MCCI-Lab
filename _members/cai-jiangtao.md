@@ -1,4 +1,5 @@
 ---
+image: /images/members/jiangtaocai.jpg
 name: 蔡江涛
 display_name: 蔡江涛
 role: masters
