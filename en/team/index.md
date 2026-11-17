@@ -2,7 +2,7 @@
 title: People
 lang: en
 section: team
-description: MCCI Lab faculty, PhD, Master's, and undergraduate students.
+description: MCCI Lab faculty, PhD, Master's, undergraduate students, and alumni.
 ---
 
 # People
@@ -33,11 +33,7 @@ description: MCCI Lab faculty, PhD, Master's, and undergraduate students.
   <img src="{{ person.image | default: 'images/avatar-default.svg' | relative_url }}" class="mcci-member-avatar" alt="Default avatar" loading="lazy">
   <h3>{{ site.data.member_names_en[person.display_name] | default: person.display_name | default: person.name }}</h3>
   <p class="mcci-member-detail">{% if person.research_en %}{{ person.research_en }}{% elsif person.research == "推荐系统、推荐公平性" %}Recommender Systems, Fairness in Recommendation{% else %}Research interests to be added{% endif %}</p>
-  {% if person.card_email and person.email %}
-    <p class="mcci-member-contact"><a href="mailto:{{ person.email | escape }}">{{ person.email | escape }}</a></p>
-  {% else %}
-    {% include member-outlinks.html person=person lang='en' %}
-  {% endif %}
+  {% include member-outlinks.html person=person lang='en' %}
 </article>
 {% endif %}
 {% endfor %}
