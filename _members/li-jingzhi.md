@@ -1,4 +1,5 @@
 ---
+image: /images/members/jingzhili.png
 name: 李京智
 display_name: 李京智
 role: phd

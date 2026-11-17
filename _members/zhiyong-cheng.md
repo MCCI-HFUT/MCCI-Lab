@@ -1,4 +1,5 @@
 ---
+image: /images/members/zhiyongcheng.png
 name: Zhiyong Cheng
 display_name: 程志勇
 role: principal-investigator
