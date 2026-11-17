@@ -8,7 +8,7 @@ description: MCCI Lab faculty, PhD, Master's, undergraduate students, and alumni
 # People
 {% include section.html %}
 ## Faculty
-<div class="mcci-member-grid">
+<div class="mcci-member-grid mcci-faculty-grid">
 {% assign instructors = site.members | where: "role", "principal-investigator" %}
 {% assign additional_instructors = site.members | where: "role", "faculty" %}
 {% assign instructors = instructors | concat: additional_instructors %}

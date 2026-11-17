@@ -10,7 +10,7 @@ nav:
 {% include section.html %}
 ## 指导教师
 
-<div class="mcci-member-grid">
+<div class="mcci-member-grid mcci-faculty-grid">
 {% assign instructors = site.members | where: "role", "principal-investigator" %}
 {% assign additional_instructors = site.members | where: "role", "faculty" %}
 {% assign instructors = instructors | concat: additional_instructors %}

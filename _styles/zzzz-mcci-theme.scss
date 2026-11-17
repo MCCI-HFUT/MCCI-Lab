@@ -379,3 +379,18 @@ html body main .mcci-alumni-grid .mcci-alumni-destination {
   margin-top: 9px;
   text-align: center !important;
 }
+
+/* Faculty photos: match visible height without cropping either portrait.
+   The source images have different aspect ratios; do not apply to students. */
+html body main .mcci-faculty-grid .mcci-member-avatar {
+  height: 196px !important;
+  width: auto !important;
+  max-width: 100% !important;
+  object-fit: contain !important;
+  margin: 0 auto 13px;
+}
+@media (max-width: 650px) {
+  html body main .mcci-faculty-grid .mcci-member-avatar {
+    height: 155px !important;
+  }
+}
