@@ -14,7 +14,7 @@ description: MCCI Lab faculty, PhD, Master's, undergraduate students, and alumni
 {% assign instructors = instructors | concat: additional_instructors %}
 {% for person in instructors %}
 <article class="mcci-member">
-  <img src="{{ person.image | default: 'images/avatar-default.svg' | relative_url }}" class="mcci-member-avatar" alt="Default avatar" loading="lazy">
+  <img src="{{ person.image | default: 'images/avatar-default.svg' | relative_url }}{% if person.image_version %}?v={{ person.image_version | escape }}{% endif %}" class="mcci-member-avatar" alt="Default avatar" loading="lazy">
   <h3>{{ person.name }}</h3>
   <p class="mcci-member-meta">{{ person.card_title_en | default: "Professor, PhD Supervisor" }}</p>
   <p class="mcci-member-detail">{{ person.research_en | default: "Information Retrieval and Recommendation, Social Media Analysis, Multimedia Systems" }}</p>
@@ -32,7 +32,7 @@ description: MCCI Lab faculty, PhD, Master's, undergraduate students, and alumni
 {% for person in members_sorted %}
 {% if person.cohort == year %}
 <article class="mcci-member">
-  <img src="{{ person.image | default: 'images/avatar-default.svg' | relative_url }}" class="mcci-member-avatar" alt="Default avatar" loading="lazy">
+  <img src="{{ person.image | default: 'images/avatar-default.svg' | relative_url }}{% if person.image_version %}?v={{ person.image_version | escape }}{% endif %}" class="mcci-member-avatar" alt="Default avatar" loading="lazy">
   <h3>{{ site.data.member_names_en[person.display_name] | default: person.display_name | default: person.name }}</h3>
   <p class="mcci-member-detail">{% if person.research_en %}{{ person.research_en }}{% elsif person.research == "推荐系统、推荐公平性" %}Recommender Systems, Fairness in Recommendation{% else %}Research interests to be added{% endif %}</p>
   {% include member-outlinks.html person=person lang='en' %}
@@ -52,7 +52,7 @@ description: MCCI Lab faculty, PhD, Master's, undergraduate students, and alumni
 {% for person in members_sorted %}
 {% if person.cohort == year %}
 <article class="mcci-member">
-  <img src="{{ person.image | default: 'images/avatar-default.svg' | relative_url }}" class="mcci-member-avatar" alt="Default avatar" loading="lazy">
+  <img src="{{ person.image | default: 'images/avatar-default.svg' | relative_url }}{% if person.image_version %}?v={{ person.image_version | escape }}{% endif %}" class="mcci-member-avatar" alt="Default avatar" loading="lazy">
   <h3>{{ site.data.member_names_en[person.display_name] | default: person.display_name | default: person.name }}</h3>
   <p class="mcci-member-detail">{% if person.research_en %}{{ person.research_en }}{% elsif person.research == "推荐系统、推荐公平性" %}Recommender Systems, Fairness in Recommendation{% else %}Research interests to be added{% endif %}</p>
   {% include member-outlinks.html person=person lang='en' %}
@@ -68,7 +68,7 @@ description: MCCI Lab faculty, PhD, Master's, undergraduate students, and alumni
 {% assign undergraduates = site.members | where: "role", "undergraduate" | sort: "member_order" %}
 {% for person in undergraduates %}
 <article class="mcci-member">
-  <img src="{{ person.image | default: 'images/avatar-default.svg' | relative_url }}" class="mcci-member-avatar" alt="Default avatar" loading="lazy">
+  <img src="{{ person.image | default: 'images/avatar-default.svg' | relative_url }}{% if person.image_version %}?v={{ person.image_version | escape }}{% endif %}" class="mcci-member-avatar" alt="Default avatar" loading="lazy">
   <h3>{{ site.data.member_names_en[person.display_name] | default: person.display_name | default: person.name }}</h3>
   <p class="mcci-member-detail">{% if person.research_en %}{{ person.research_en }}{% elsif person.research == "推荐系统、推荐公平性" %}Recommender Systems, Fairness in Recommendation{% else %}Research interests to be added{% endif %}</p>
   {% include member-outlinks.html person=person lang='en' %}

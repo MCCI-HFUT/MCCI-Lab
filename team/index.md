@@ -16,7 +16,7 @@ nav:
 {% assign instructors = instructors | concat: additional_instructors %}
 {% for person in instructors %}
 <article class="mcci-member">
-  <img src="{{ person.image | default: 'images/avatar-default.svg' | relative_url }}" class="mcci-member-avatar" alt="{{ person.display_name | default: person.name }}的默认头像" loading="lazy">
+  <img src="{{ person.image | default: 'images/avatar-default.svg' | relative_url }}{% if person.image_version %}?v={{ person.image_version | escape }}{% endif %}" class="mcci-member-avatar" alt="{{ person.display_name | default: person.name }}的默认头像" loading="lazy">
   <h3>{{ person.display_name | default: person.name }}</h3>
   <p class="mcci-member-meta">{{ person.card_title_zh | default: "教授、博士生导师" }}</p>
   <p class="mcci-member-detail">{{ person.research | default: "信息检索与推荐、社交媒体分析、多媒体系统" }}</p>
@@ -36,7 +36,7 @@ nav:
 {% for person in phd_members %}
 {% if person.cohort == year %}
 <article class="mcci-member">
-  <img src="{{ person.image | default: 'images/avatar-default.svg' | relative_url }}" class="mcci-member-avatar" alt="{{ person.display_name | default: person.name }}的默认头像" loading="lazy">
+  <img src="{{ person.image | default: 'images/avatar-default.svg' | relative_url }}{% if person.image_version %}?v={{ person.image_version | escape }}{% endif %}" class="mcci-member-avatar" alt="{{ person.display_name | default: person.name }}的默认头像" loading="lazy">
   <h3>{{ person.display_name | default: person.name }}</h3>
   <p class="mcci-member-detail">{{ person.research | default: "研究方向待补充" }}</p>
   {% include member-outlinks.html person=person lang='zh' %}
@@ -56,7 +56,7 @@ nav:
 {% for person in master_members %}
 {% if person.cohort == year %}
 <article class="mcci-member">
-  <img src="{{ person.image | default: 'images/avatar-default.svg' | relative_url }}" class="mcci-member-avatar" alt="{{ person.display_name | default: person.name }}的默认头像" loading="lazy">
+  <img src="{{ person.image | default: 'images/avatar-default.svg' | relative_url }}{% if person.image_version %}?v={{ person.image_version | escape }}{% endif %}" class="mcci-member-avatar" alt="{{ person.display_name | default: person.name }}的默认头像" loading="lazy">
   <h3>{{ person.display_name | default: person.name }}</h3>
   <p class="mcci-member-detail">{{ person.research | default: "研究方向待补充" }}</p>
   {% include member-outlinks.html person=person lang='zh' %}
@@ -73,7 +73,7 @@ nav:
 {% assign undergraduates = site.members | where: "role", "undergraduate" | sort: "member_order" %}
 {% for person in undergraduates %}
 <article class="mcci-member">
-  <img src="{{ person.image | default: 'images/avatar-default.svg' | relative_url }}" class="mcci-member-avatar" alt="{{ person.display_name | default: person.name }}的默认头像" loading="lazy">
+  <img src="{{ person.image | default: 'images/avatar-default.svg' | relative_url }}{% if person.image_version %}?v={{ person.image_version | escape }}{% endif %}" class="mcci-member-avatar" alt="{{ person.display_name | default: person.name }}的默认头像" loading="lazy">
   <h3>{{ person.display_name | default: person.name }}</h3>
   <p class="mcci-member-detail">{{ person.research | default: "研究方向待补充" }}</p>
   {% include member-outlinks.html person=person lang='zh' %}

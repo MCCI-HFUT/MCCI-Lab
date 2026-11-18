@@ -1,5 +1,6 @@
 ---
 image: /images/members/tingran.png
+image_version: 44b99eec
 name: 冉婷
 display_name: 冉婷
 role: masters
