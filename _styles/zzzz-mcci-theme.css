@@ -571,5 +571,18 @@ html body main .mcci-faculty-grid .mcci-member-avatar {
     height: 155px !important;
   }
 }
+/* Align image slots across each member row while preserving full portraits.
+   A consistent slot height also keeps member names aligned despite source ratios. */
+html body main .mcci-member-grid .mcci-member-avatar {
+  height: 196px !important;
+  object-fit: contain !important;
+  object-position: center top !important;
+}
+
+@media (max-width: 650px) {
+  html body main .mcci-member-grid .mcci-member-avatar {
+    height: 155px !important;
+  }
+}
 
 /*# sourceMappingURL=zzzz-mcci-theme.css.map */
