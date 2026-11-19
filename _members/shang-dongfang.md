@@ -1,5 +1,6 @@
 ---
 image: /images/members/dongfangshang.jpg
+image_version: 417f2155
 name: 尚东方
 display_name: 尚东方
 role: masters
