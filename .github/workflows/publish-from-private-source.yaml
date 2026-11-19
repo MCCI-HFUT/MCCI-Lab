@@ -1,0 +1,58 @@
+# Staged workflow for a future PRIVATE source repository.
+# In the current public MCCI-Lab repository, its job is intentionally skipped.
+name: Publish from private source to public Pages
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: mcci-private-to-public-pages
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    # Only run after copying the source into the private repository below.
+    if: github.repository == 'MCCI-HFUT/MCCI-Lab-source' && github.event.repository.private == true
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check public deployment credential
+        env:
+          DEPLOY_TOKEN: ${{ secrets.PUBLIC_PAGES_TOKEN }}
+        run: |
+          if [ -z "$DEPLOY_TOKEN" ]; then
+            echo "::error::Configure PUBLIC_PAGES_TOKEN in private repository Actions secrets."
+            exit 1
+          fi
+
+      - name: Checkout private source
+        uses: actions/checkout@v4
+
+      - name: Install Ruby packages
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.1"
+          bundler-cache: true
+
+      - name: Set public Pages URL
+        run: |
+          printf '\nurl: https://mcci-hfut.github.io\n' >> _config.yaml
+
+      - name: Build public website
+        run: |
+          JEKYLL_ENV=production bundle exec jekyll build --baseurl "/MCCI-Lab"
+
+      - name: Publish built files to public repository
+        uses: JamesIves/github-pages-deploy-action@v4.8.0
+        with:
+          token: ${{ secrets.PUBLIC_PAGES_TOKEN }}
+          repository-name: MCCI-HFUT/MCCI-Lab
+          branch: gh-pages
+          folder: _site
+          clean-exclude: preview
+          force: false
